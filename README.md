@@ -36,7 +36,3 @@ Build output and signing files are intentionally ignored and are not part of thi
 ## Data and privacy notes
 
 Use institution-specific identifiers instead of national ID numbers. Keep the ESP32 panel on a trusted local network, change all default credentials, and protect exported CSV files. This project is a prototype and has not been audited for production security or attendance-law compliance.
-
-## Status
-
-Work in progress — shared as an evolving hardware/software prototype.

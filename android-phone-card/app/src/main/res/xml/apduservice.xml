@@ -1,0 +1,7 @@
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/hce_description"
+    android:requireDeviceUnlock="false">
+    <aid-group android:category="other" android:description="@string/hce_description">
+        <aid-filter android:name="F0594F4B4C41" />
+    </aid-group>
+</host-apdu-service>

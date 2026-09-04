@@ -1,0 +1,39 @@
+import java.util.Properties
+
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+def masterKeyFile = rootProject.file("master-key.properties")
+if (!masterKeyFile.exists()) {
+    throw new GradleException("master-key.properties bulunamadi. Ornek dosyayi kopyalayip MASTER_KEY_SHA256 degerini girin.")
+}
+def masterKeyProperties = new Properties()
+masterKeyFile.withInputStream { masterKeyProperties.load(it) }
+def masterKeyHash = masterKeyProperties.getProperty("MASTER_KEY_SHA256", "").trim().toLowerCase()
+if (!(masterKeyHash ==~ /[0-9a-f]{64}/)) {
+    throw new GradleException("MASTER_KEY_SHA256 64 haneli SHA-256 hex degeri olmali.")
+}
+
+android {
+    namespace 'tr.yoklama.phonecard'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "tr.yoklama.phonecard"
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+        buildConfigField "String", "MASTER_KEY_SHA256", "\"${masterKeyHash}\""
+    }
+
+    buildFeatures { buildConfig true }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions { jvmTarget = '17' }
+}

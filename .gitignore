@@ -1,0 +1,7 @@
+master-key.properties
+android-phone-card/.gradle/
+android-phone-card/app/build/
+*.apk
+*.aab
+*.bin
+*.elf

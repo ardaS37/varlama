@@ -1,0 +1,4 @@
+# Bu dosyayi master-key.properties olarak kopyalayin ve SHA-256 degerini yazin.
+# Hash, master key'in kendisi degildir. Ornek:
+# py -3 -c "import hashlib; print(hashlib.sha256('SIFRENIZ'.encode()).hexdigest())"
+MASTER_KEY_SHA256=fdc46071d20f9ebce4d9e4c67dd9fef0910d0f5386514f74f0ebb6e7c63b425d

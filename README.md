@@ -1,6 +1,6 @@
-# Yoklama — Card and Phone Attendance System
+# Varlama — Card and Phone Attendance System
 
-Yoklama is an experimental attendance system designed for boarding houses, dormitories, hostels, and other managed facilities. It combines an ESP32 reader with an optional Android phone-card application so that authorized residents can record attendance without sharing personal identity data with the reader.
+Varlama is an experimental attendance system designed for boarding houses, dormitories, hostels, and other managed facilities. It combines an ESP32 reader with an optional Android phone-card application so that authorized residents can record attendance without sharing personal identity data with the reader.
 
 ## Part 1 — ESP32 card reader and attendance panel
 

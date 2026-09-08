@@ -1,0 +1,68 @@
+<html>
+    <!-- Sitemap 1.0 -->
+    <object type="text/site properties">
+      <param name="SiteType" value="toc">
+      <param name="Image Width" value="16">
+      <param name="Window Styles" value="0x800027">
+      <param name="ExWindow Styles" value="0x100">
+    </object>
+    
+	<ul>
+		<li><object type="text/sitemap">
+		<param name="Name" value="IMPORTING DATA"/></object>
+	<ul>
+		<li><object type="text/sitemap">
+		<param name="Name" value="Library Part Import"/></object>
+	<ul>
+		<li><object type="text/sitemap">
+		<param name="Name" value="Web Search Import"/></object>
+	<ul>
+		<li><object type="text/sitemap">
+		<param name="Name" value="Web Search Import"/><param name="local" value="LibraryPicker/WebSearchImport.htm"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="The Import Process"/><param name="local" value="LibraryPicker/WebSearchImport.htm#The_Import_Process"/></object></li>
+	</ul></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Import Part Dialogue"/></object>
+	<ul>
+		<li><object type="text/sitemap">
+		<param name="Name" value="Library Part Import"/><param name="local" value="LibraryPartDialogue/libPartImport.htm"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="The Dialogue Form"/><param name="local" value="LibraryPartDialogue/The_Dialogue_Form.htm"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Configuration Settings"/><param name="local" value="LibraryPartDialogue/The_Dialogue_Form.htm#Settings_and_Configuration"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="The Import Process"/><param name="local" value="LibraryPartDialogue/The_Dialogue_Form.htm#The_Import_Process"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="The Body Editor"/><param name="local" value="LibraryPartDialogue/The_Body_Editor.htm"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Examples"/></object>
+	<ul>
+		<li><object type="text/sitemap">
+		<param name="Name" value="Import from Digikey"/><param name="local" value="LibraryPartDialogue/Examples.htm#Import_from_Digikey"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Import from SamacSys"/><param name="local" value="LibraryPartDialogue/Examples.htm#Import_from_Samacsys"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Import from PCB Library Expert"/><param name="local" value="LibraryPartDialogue/Examples.htm#Import_from_PCB_Library_Expert"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Import from Ultra Librarian"/><param name="local" value="LibraryPartDialogue/Examples.htm#Import_from_Ultra_Librarian"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Import from RS Online"/><param name="local" value="LibraryPartDialogue/Examples.htm#Import_from_RS_Online"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Import from SnapEDA"/><param name="local" value="LibraryPartDialogue/Examples.htm#Import_from_SnapEDA"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Import BSDL File"/><param name="local" value="LibraryPartDialogue/Examples.htm#Import_BSDL_File"/></object></li>
+	</ul></li>
+	</ul></li>
+	</ul></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Schematic Import (EDIF)"/></object>
+	<ul>
+		<li><object type="text/sitemap">
+		<param name="Name" value="Importing EDIF Files"/><param name="local" value="EDIF/Importing_EDIF_Files.htm"/></object></li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Limitations"/><param name="local" value="EDIF/Limitations.htm"/></object></li>
+	</ul></li>
+	</ul></li>
+	</ul>
+    </html>

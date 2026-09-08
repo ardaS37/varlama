@@ -1,0 +1,12 @@
+{
+  "yoklama-dip-v1-B_Cu.gbl": "d200da2bd89b901553cd9915f53558efb52aa7210243f481f9d0e9371efa6219",
+  "yoklama-dip-v1-B_Mask.gbs": "c9fe873c5a1282fdee4abccf8ce1858a17666a6645ed20f5ad1a6a0f91b581eb",
+  "yoklama-dip-v1-B_Silkscreen.gbo": "1b59c575eb557723797ee02aa1b9445adddc1c539832c13309ad485395805b26",
+  "yoklama-dip-v1-Edge_Cuts.gm1": "af4bf21c37daabd39b2042f0e23efa5c70cc990f26de4ca23eca580fc4cfe277",
+  "yoklama-dip-v1-F_Cu.gtl": "9fe5a89dc70740adda22bea5e03de866531e3b5efa22a42e385a385fd4f58905",
+  "yoklama-dip-v1-F_Mask.gts": "67d6d0dcfcdea6b9ba1c8e403889db676136e22084b63413b61ef8103d972ca4",
+  "yoklama-dip-v1-F_Silkscreen.gto": "3b9f44991a5522cc27aa96a87a7292220fc0857513f559ad7c67321de52614b3",
+  "yoklama-dip-v1-job.gbrjob": "0d0b7d677f8cd52ac7cc53d9e8d1152b0014c686e5d1268a4d510dd5e9a01fee",
+  "yoklama-dip-v1-NPTH.drl": "88aca10079563a586af110292ae0a6fbaca08fe7f745dd3e07360771b17c1932",
+  "yoklama-dip-v1-PTH.drl": "c31990fcc3a51129f65e64423f5c1f95bcd75fa914f3c54c8ea312ed7844b7bf"
+}

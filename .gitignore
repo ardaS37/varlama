@@ -5,3 +5,4 @@ android-phone-card/app/build/
 *.aab
 *.bin
 *.elf
+.tools/

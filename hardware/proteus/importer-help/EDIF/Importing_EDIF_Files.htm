@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../_rhdefault.css"/><link rel="stylesheet" type="text/css" href="../assets/css/lx.css"/>
+<meta name="template" content="../assets/masterpages/LX Master.htt"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Importing EDIF Files</title>
+
+<meta name="rh-index-keywords" content="EDIF2,OrCAD Import,EDIF Import,Schematic Import,Import Schematic"/><meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../ehlpdhtm.js"></script></head>
+
+<body page-style="x-size: Letter;">
+<div>
+<h1 position="fixed">IMPORTING EDIF FILES</h1>
+<p> </p>
+<h3>Introduction</h3>
+<p>Proteus supports the import of EDIF2 files as exported from the OrCAD 
+ v9.2 or the OrCAD 17.2 schematic capture product. There are three phases 
+ to the import:</p>
+<ol type="1" class="Numbers">
+	<li class="Numbers">Parse the EDIF file.</li>
+	<li class="Numbers">If no errors are found import the data.</li>
+	<li class="Numbers">Verify the connectivity and edit the schematic 
+	 until correct.</li>
+</ol>
+<p>Stage 3 is of particular importance. After we import the data we generate 
+ a netlist in Proteus from the imported schematic. We then compare this 
+ netlist against the one stored inside the EDIF file which tells us if 
+ the connectivity has been preserved during import. Any connectivity errors 
+ or differences are displayed in a log and the user needs to make suitable 
+ changes in Proteus manually to fix any connectivity errors.</p>
+<p>The end result of this process is a schematic whose connectivity / netlist 
+ matches the EDIF file, providing a high degree of confidence in the integrity 
+ of the import.</p>
+<h4>The Import Process</h4>
+<p>Go to File menu / Import ECAD files. This will start a new project.</p>
+<p><img src="../assets/images/Images/importEcadFiles.png" style="border: none;" alt="" width="184" height="198" border="0"/></p>
+<p>Choose a file to import. Currently only OrCAD EDF/EDIF files are supported.</p>
+<p><img src="../assets/images/Images/selectEdifFile.png" style="border: none;" alt="" width="625" height="328" border="0"/></p>
+<p>The file will be parsed but not saved. Any parsing errors will be displayed 
+ in the log.</p>
+<p><img src="../assets/images/Images/edifParsingLog.png" style="border: none;" alt="" width="640" height="607" border="0"/></p>
+<p>Click continue. The data will be imported and the schematic will be 
+ created. The imported netlist and the Proteus netlist will be compared 
+ for consistency. Any errors or warnings will be displayed in the log.</p>
+<p><img src="../assets/images/Images/edifImportWarnings.png" style="border: none;" alt="" width="666" height="171" border="0"/></p>
+<p class="Tip">Very often you will see power net differences / errors after 
+ import because power nets are handled differently in OrCAD. This is discussed 
+ in more detail below.</p>
+<p>Amend the schematic to correct errors as necessary. Each edit will re-run 
+ the netlist comparison and update the log.</p>
+<p>Click the close button or close the importer tab to complete the process.</p>
+<p><img src="../assets/images/Images/edifClose.png" style="border: none;" alt="" width="640" height="399" border="0"/></p>
+
+</div>
+<p> </p>
+
+</body></html>

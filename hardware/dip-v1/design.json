@@ -1,0 +1,1485 @@
+{
+  "name": "yoklama-dip-v1",
+  "components": [
+    {
+      "ref": "U1",
+      "value": "ESP32-DevKitC 38 pin",
+      "pins": [
+        [
+          1,
+          "3V3",
+          "+3V3",
+          0.0,
+          0.0,
+          "power_out"
+        ],
+        [
+          2,
+          "EN",
+          null,
+          0.0,
+          2.54,
+          "input"
+        ],
+        [
+          3,
+          "VP",
+          null,
+          0.0,
+          5.08,
+          "input"
+        ],
+        [
+          4,
+          "VN",
+          null,
+          0.0,
+          7.62,
+          "input"
+        ],
+        [
+          5,
+          "IO34",
+          null,
+          0.0,
+          10.16,
+          "input"
+        ],
+        [
+          6,
+          "IO35",
+          null,
+          0.0,
+          12.7,
+          "input"
+        ],
+        [
+          7,
+          "IO32",
+          "BUZZER_GPIO32",
+          0.0,
+          15.24,
+          "output"
+        ],
+        [
+          8,
+          "IO33",
+          "SD_CS_GPIO33",
+          0.0,
+          17.78,
+          "output"
+        ],
+        [
+          9,
+          "IO25",
+          "SD_MISO_GPIO25",
+          0.0,
+          20.32,
+          "input"
+        ],
+        [
+          10,
+          "IO26",
+          "SD_MOSI_GPIO26",
+          0.0,
+          22.86,
+          "output"
+        ],
+        [
+          11,
+          "IO27",
+          "RFID_RST_GPIO27",
+          0.0,
+          25.4,
+          "output"
+        ],
+        [
+          12,
+          "IO14",
+          "SD_SCK_GPIO14",
+          0.0,
+          27.94,
+          "output"
+        ],
+        [
+          13,
+          "IO12",
+          null,
+          0.0,
+          30.48,
+          "bidirectional"
+        ],
+        [
+          14,
+          "GND",
+          "GND",
+          0.0,
+          33.02,
+          "passive"
+        ],
+        [
+          15,
+          "IO13",
+          "LED_NET_GPIO13",
+          0.0,
+          35.56,
+          "output"
+        ],
+        [
+          16,
+          "SD2",
+          null,
+          0.0,
+          38.1,
+          "bidirectional"
+        ],
+        [
+          17,
+          "SD3",
+          null,
+          0.0,
+          40.64,
+          "bidirectional"
+        ],
+        [
+          18,
+          "CMD",
+          null,
+          0.0,
+          43.18,
+          "bidirectional"
+        ],
+        [
+          19,
+          "5V",
+          "+5V_USB",
+          0.0,
+          45.72,
+          "power_out"
+        ],
+        [
+          20,
+          "GND",
+          "GND",
+          25.4,
+          0.0,
+          "passive"
+        ],
+        [
+          21,
+          "IO23",
+          "RFID_MOSI_GPIO23",
+          25.4,
+          2.54,
+          "output"
+        ],
+        [
+          22,
+          "IO22",
+          "SCL_3V3_GPIO22",
+          25.4,
+          5.08,
+          "bidirectional"
+        ],
+        [
+          23,
+          "TX0",
+          null,
+          25.4,
+          7.62,
+          "bidirectional"
+        ],
+        [
+          24,
+          "RX0",
+          null,
+          25.4,
+          10.16,
+          "bidirectional"
+        ],
+        [
+          25,
+          "IO21",
+          "SDA_3V3_GPIO21",
+          25.4,
+          12.7,
+          "bidirectional"
+        ],
+        [
+          26,
+          "GND",
+          "GND",
+          25.4,
+          15.24,
+          "passive"
+        ],
+        [
+          27,
+          "IO19",
+          "RFID_MISO_GPIO19",
+          25.4,
+          17.78,
+          "input"
+        ],
+        [
+          28,
+          "IO18",
+          "RFID_SCK_GPIO18",
+          25.4,
+          20.32,
+          "output"
+        ],
+        [
+          29,
+          "IO5",
+          "RFID_CS_GPIO5",
+          25.4,
+          22.86,
+          "output"
+        ],
+        [
+          30,
+          "IO17",
+          "LED_ERROR_GPIO17",
+          25.4,
+          25.4,
+          "output"
+        ],
+        [
+          31,
+          "IO16",
+          "LED_OK_GPIO16",
+          25.4,
+          27.94,
+          "output"
+        ],
+        [
+          32,
+          "IO4",
+          "LED_READY_GPIO4",
+          25.4,
+          30.48,
+          "output"
+        ],
+        [
+          33,
+          "IO0",
+          null,
+          25.4,
+          33.02,
+          "bidirectional"
+        ],
+        [
+          34,
+          "IO2",
+          null,
+          25.4,
+          35.56,
+          "bidirectional"
+        ],
+        [
+          35,
+          "IO15",
+          null,
+          25.4,
+          38.1,
+          "bidirectional"
+        ],
+        [
+          36,
+          "SD1",
+          null,
+          25.4,
+          40.64,
+          "bidirectional"
+        ],
+        [
+          37,
+          "SD0",
+          null,
+          25.4,
+          43.18,
+          "bidirectional"
+        ],
+        [
+          38,
+          "CLK",
+          null,
+          25.4,
+          45.72,
+          "bidirectional"
+        ]
+      ],
+      "xy": [
+        12.7,
+        12.7
+      ],
+      "shape": "esp",
+      "sch": [
+        45.72,
+        66.04
+      ],
+      "description": "WROOM, 2x19, 25.40 mm row spacing; USB supply only",
+      "fp": "Yoklama:U1_esp",
+      "uuid": "e71196f0-7ae2-5024-be53-383b8a952bea"
+    },
+    {
+      "ref": "J1",
+      "value": "RC522 module",
+      "pins": [
+        [
+          1,
+          "SDA/SS",
+          "RFID_CS_GPIO5",
+          0.0,
+          0,
+          "input"
+        ],
+        [
+          2,
+          "SCK",
+          "RFID_SCK_GPIO18",
+          2.54,
+          0,
+          "input"
+        ],
+        [
+          3,
+          "MOSI",
+          "RFID_MOSI_GPIO23",
+          5.08,
+          0,
+          "input"
+        ],
+        [
+          4,
+          "MISO",
+          "RFID_MISO_GPIO19",
+          7.62,
+          0,
+          "output"
+        ],
+        [
+          5,
+          "IRQ",
+          null,
+          10.16,
+          0,
+          "output"
+        ],
+        [
+          6,
+          "GND",
+          "GND",
+          12.7,
+          0,
+          "power_in"
+        ],
+        [
+          7,
+          "RST",
+          "RFID_RST_GPIO27",
+          15.24,
+          0,
+          "input"
+        ],
+        [
+          8,
+          "3V3",
+          "+3V3",
+          17.78,
+          0,
+          "power_in"
+        ]
+      ],
+      "xy": [
+        102.87,
+        59.69
+      ],
+      "shape": "rfid",
+      "sch": [
+        139.7,
+        43.18
+      ],
+      "description": "",
+      "fp": "Yoklama:J1_rfid",
+      "uuid": "4d91d108-ad90-5fa2-8d1b-d0068ad43954"
+    },
+    {
+      "ref": "J2",
+      "value": "MicroSD 42x24 module",
+      "pins": [
+        [
+          1,
+          "GND",
+          "GND",
+          0,
+          0.0,
+          "power_in"
+        ],
+        [
+          2,
+          "VCC",
+          "+5V_USB",
+          0,
+          2.54,
+          "power_in"
+        ],
+        [
+          3,
+          "MISO",
+          "SD_MISO_GPIO25",
+          0,
+          5.08,
+          "output"
+        ],
+        [
+          4,
+          "MOSI",
+          "SD_MOSI_GPIO26",
+          0,
+          7.62,
+          "input"
+        ],
+        [
+          5,
+          "SCK",
+          "SD_SCK_GPIO14",
+          0,
+          10.16,
+          "input"
+        ],
+        [
+          6,
+          "CS",
+          "SD_CS_GPIO33",
+          0,
+          12.7,
+          "input"
+        ]
+      ],
+      "xy": [
+        107.95,
+        85.09
+      ],
+      "shape": "sd",
+      "sch": [
+        229.87,
+        43.18
+      ],
+      "description": "",
+      "fp": "Yoklama:J2_sd",
+      "uuid": "1b5b4c39-bbbf-5abf-845e-c3faaf1a9d58"
+    },
+    {
+      "ref": "J3",
+      "value": "LCD1602 I2C 5V",
+      "pins": [
+        [
+          1,
+          "GND",
+          "GND",
+          0.0,
+          0,
+          "power_in"
+        ],
+        [
+          2,
+          "VCC",
+          "+5V_USB",
+          2.54,
+          0,
+          "power_in"
+        ],
+        [
+          3,
+          "SDA",
+          "SDA_5V",
+          5.08,
+          0,
+          "bidirectional"
+        ],
+        [
+          4,
+          "SCL",
+          "SCL_5V",
+          7.62,
+          0,
+          "input"
+        ]
+      ],
+      "xy": [
+        55.88,
+        154.94
+      ],
+      "shape": "header",
+      "sch": [
+        330.2,
+        43.18
+      ],
+      "description": "",
+      "fp": "Yoklama:J3_header",
+      "uuid": "795794ac-0d00-578d-a96b-3092cfc82b23"
+    },
+    {
+      "ref": "R1",
+      "value": "1k",
+      "pins": [
+        [
+          1,
+          "1",
+          "LED_READY_GPIO4",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "LED_READY_A",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        50.8,
+        165.1
+      ],
+      "shape": "r",
+      "sch": [
+        39.37,
+        154.94
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R1_r",
+      "uuid": "4f6f0a4d-21e5-527e-845c-de872de42373"
+    },
+    {
+      "ref": "D1",
+      "value": "LED blue",
+      "pins": [
+        [
+          1,
+          "K",
+          "GND",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "A",
+          "LED_READY_A",
+          2.54,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        53.339999999999996,
+        175.26
+      ],
+      "shape": "led",
+      "sch": [
+        39.37,
+        176.53
+      ],
+      "description": "5 mm LED, 2.54 mm lead pitch",
+      "fp": "Yoklama:D1_led",
+      "uuid": "91e4f631-df18-520a-ad1f-1937bef20439"
+    },
+    {
+      "ref": "R2",
+      "value": "1k",
+      "pins": [
+        [
+          1,
+          "1",
+          "LED_OK_GPIO16",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "LED_OK_A",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        63.5,
+        165.1
+      ],
+      "shape": "r",
+      "sch": [
+        129.54,
+        154.94
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R2_r",
+      "uuid": "c956916c-b434-54eb-91ca-04e6473da042"
+    },
+    {
+      "ref": "D2",
+      "value": "LED green",
+      "pins": [
+        [
+          1,
+          "K",
+          "GND",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "A",
+          "LED_OK_A",
+          2.54,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        66.04,
+        175.26
+      ],
+      "shape": "led",
+      "sch": [
+        129.54,
+        176.53
+      ],
+      "description": "5 mm LED, 2.54 mm lead pitch",
+      "fp": "Yoklama:D2_led",
+      "uuid": "34e68880-ac79-5ac8-8539-9734af63d890"
+    },
+    {
+      "ref": "R3",
+      "value": "1k",
+      "pins": [
+        [
+          1,
+          "1",
+          "LED_ERROR_GPIO17",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "LED_ERROR_A",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        76.2,
+        165.1
+      ],
+      "shape": "r",
+      "sch": [
+        219.71,
+        154.94
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R3_r",
+      "uuid": "3df02399-bf94-5895-88c5-38bf27bd36d6"
+    },
+    {
+      "ref": "D3",
+      "value": "LED red",
+      "pins": [
+        [
+          1,
+          "K",
+          "GND",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "A",
+          "LED_ERROR_A",
+          2.54,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        78.74000000000001,
+        175.26
+      ],
+      "shape": "led",
+      "sch": [
+        219.71,
+        176.53
+      ],
+      "description": "5 mm LED, 2.54 mm lead pitch",
+      "fp": "Yoklama:D3_led",
+      "uuid": "014d226b-b7ee-5120-afaf-ea687c0a3fe8"
+    },
+    {
+      "ref": "R4",
+      "value": "1k",
+      "pins": [
+        [
+          1,
+          "1",
+          "LED_NET_GPIO13",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "LED_NET_A",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        88.9,
+        165.1
+      ],
+      "shape": "r",
+      "sch": [
+        309.88,
+        154.94
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R4_r",
+      "uuid": "fe3bf452-764e-5966-a054-8f6caec955fa"
+    },
+    {
+      "ref": "D4",
+      "value": "LED yellow",
+      "pins": [
+        [
+          1,
+          "K",
+          "GND",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "A",
+          "LED_NET_A",
+          2.54,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        91.44000000000001,
+        175.26
+      ],
+      "shape": "led",
+      "sch": [
+        309.88,
+        176.53
+      ],
+      "description": "5 mm LED, 2.54 mm lead pitch",
+      "fp": "Yoklama:D4_led",
+      "uuid": "d4676dd4-69cf-553f-94ac-d8fc407c37bd"
+    },
+    {
+      "ref": "Q1",
+      "value": "2N7000",
+      "pins": [
+        [
+          1,
+          "S",
+          "SDA_3V3_GPIO21",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "G",
+          "+3V3",
+          2.54,
+          0,
+          "input"
+        ],
+        [
+          3,
+          "D",
+          "SDA_5V",
+          5.08,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        50.8,
+        104.14
+      ],
+      "shape": "to92",
+      "sch": [
+        309.88,
+        91.44
+      ],
+      "description": "onsemi 2N7000, TO-92, spread leads to 2.54 mm pitch",
+      "fp": "Yoklama:Q1_to92",
+      "uuid": "3c25cbed-6a89-5102-b967-ba382f63efd8"
+    },
+    {
+      "ref": "R5",
+      "value": "4.7k",
+      "pins": [
+        [
+          1,
+          "1",
+          "+3V3",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "SDA_3V3_GPIO21",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        50.8,
+        97.79
+      ],
+      "shape": "r",
+      "sch": [
+        309.88,
+        68.58
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R5_r",
+      "uuid": "1927c1e4-7c39-517e-b27a-9e398fbab2d0"
+    },
+    {
+      "ref": "R6",
+      "value": "4.7k",
+      "pins": [
+        [
+          1,
+          "1",
+          "+5V_USB",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "SDA_5V",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        50.8,
+        111.76
+      ],
+      "shape": "r",
+      "sch": [
+        309.88,
+        115.57
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R6_r",
+      "uuid": "8daf672d-1bdf-527c-b987-13a9a5bcbed9"
+    },
+    {
+      "ref": "Q2",
+      "value": "2N7000",
+      "pins": [
+        [
+          1,
+          "S",
+          "SCL_3V3_GPIO22",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "G",
+          "+3V3",
+          2.54,
+          0,
+          "input"
+        ],
+        [
+          3,
+          "D",
+          "SCL_5V",
+          5.08,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        73.66,
+        104.14
+      ],
+      "shape": "to92",
+      "sch": [
+        364.49,
+        91.44
+      ],
+      "description": "onsemi 2N7000, TO-92, spread leads to 2.54 mm pitch",
+      "fp": "Yoklama:Q2_to92",
+      "uuid": "04ef1b4c-f729-5e70-b951-09cb46318f7f"
+    },
+    {
+      "ref": "R7",
+      "value": "4.7k",
+      "pins": [
+        [
+          1,
+          "1",
+          "+3V3",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "SCL_3V3_GPIO22",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        73.66,
+        97.79
+      ],
+      "shape": "r",
+      "sch": [
+        364.49,
+        68.58
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R7_r",
+      "uuid": "39842b97-2dba-5496-98d4-a1db1cce56e2"
+    },
+    {
+      "ref": "R8",
+      "value": "4.7k",
+      "pins": [
+        [
+          1,
+          "1",
+          "+5V_USB",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "SCL_5V",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        73.66,
+        111.76
+      ],
+      "shape": "r",
+      "sch": [
+        364.49,
+        115.57
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R8_r",
+      "uuid": "5d7e4ae3-2951-559c-810c-b654676fe3e7"
+    },
+    {
+      "ref": "R9",
+      "value": "1k",
+      "pins": [
+        [
+          1,
+          "1",
+          "BUZZER_GPIO32",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "BUZZER_BASE",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        12.7,
+        81.28
+      ],
+      "shape": "r",
+      "sch": [
+        44.45,
+        214.63
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R9_r",
+      "uuid": "604c1d7d-2a3a-5743-9a74-6a5dff427d55"
+    },
+    {
+      "ref": "R10",
+      "value": "100k",
+      "pins": [
+        [
+          1,
+          "1",
+          "BUZZER_BASE",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "GND",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        12.7,
+        91.44
+      ],
+      "shape": "r",
+      "sch": [
+        105.41,
+        214.63
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R10_r",
+      "uuid": "931b28c3-2e8a-5106-97e7-ec4544cc7aef"
+    },
+    {
+      "ref": "Q3",
+      "value": "BC337-40",
+      "pins": [
+        [
+          1,
+          "C",
+          "BUZZER_LOW",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "B",
+          "BUZZER_BASE",
+          2.54,
+          0,
+          "input"
+        ],
+        [
+          3,
+          "E",
+          "GND",
+          5.08,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        12.7,
+        104.14
+      ],
+      "shape": "to92",
+      "sch": [
+        165.1,
+        214.63
+      ],
+      "description": "TO-92 BC337: 1 collector, 2 base, 3 emitter",
+      "fp": "Yoklama:Q3_to92",
+      "uuid": "1dad1f83-0bcb-58d7-ae08-63733354285c"
+    },
+    {
+      "ref": "BZ1",
+      "value": "Passive piezo 5V",
+      "pins": [
+        [
+          1,
+          "+",
+          "+5V_USB",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "-",
+          "BUZZER_LOW",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        26.67,
+        116.84
+      ],
+      "shape": "buzzer",
+      "sch": [
+        229.87,
+        214.63
+      ],
+      "description": "Passive piezo, 7.62 mm pitch, <=12 mm body, <=20mA; not an active buzzer",
+      "fp": "Yoklama:BZ1_buzzer",
+      "uuid": "b9246dc0-c839-5452-92cc-daddc5bc90bd"
+    },
+    {
+      "ref": "R11",
+      "value": "10k",
+      "pins": [
+        [
+          1,
+          "1",
+          "+5V_USB",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "BUZZER_LOW",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        25.4,
+        101.6
+      ],
+      "shape": "r",
+      "sch": [
+        289.56,
+        214.63
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R11_r",
+      "uuid": "a2091f89-c0e9-508b-84ef-2b43328e8a0c"
+    },
+    {
+      "ref": "D5",
+      "value": "1N4148",
+      "pins": [
+        [
+          1,
+          "K",
+          "+5V_USB",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "A",
+          "BUZZER_LOW",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        25.4,
+        106.68
+      ],
+      "shape": "r",
+      "sch": [
+        355.6,
+        214.63
+      ],
+      "description": "Axial diode, cathode band at pad 1",
+      "fp": "Yoklama:D5_r",
+      "uuid": "5d0ef9e8-b963-5de0-a905-393a9b3b0f01"
+    },
+    {
+      "ref": "C1",
+      "value": "100uF 10V",
+      "pins": [
+        [
+          1,
+          "+",
+          "+5V_USB",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "-",
+          "GND",
+          2.54,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        97.79,
+        81.28
+      ],
+      "shape": "cap",
+      "sch": [
+        48.26,
+        243.84
+      ],
+      "description": "Radial pitch 2.54 mm",
+      "fp": "Yoklama:C1_cap",
+      "uuid": "bcad2407-1069-5539-b4a9-9e48d977a50f"
+    },
+    {
+      "ref": "C2",
+      "value": "100nF",
+      "pins": [
+        [
+          1,
+          "+",
+          "+5V_USB",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "-",
+          "GND",
+          2.54,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        96.52,
+        102.87
+      ],
+      "shape": "cap",
+      "sch": [
+        118.11,
+        243.84
+      ],
+      "description": "Radial pitch 2.54 mm",
+      "fp": "Yoklama:C2_cap",
+      "uuid": "0d025d86-89dc-57d3-9588-8b3c654d68e4"
+    },
+    {
+      "ref": "C3",
+      "value": "100nF",
+      "pins": [
+        [
+          1,
+          "+",
+          "+3V3",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "-",
+          "GND",
+          2.54,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        123.19,
+        71.12
+      ],
+      "shape": "cap",
+      "sch": [
+        187.96,
+        243.84
+      ],
+      "description": "Radial pitch 2.54 mm",
+      "fp": "Yoklama:C3_cap",
+      "uuid": "2570fb1f-fa31-51bc-9832-21f7cb12467c"
+    },
+    {
+      "ref": "C4",
+      "value": "10uF 10V",
+      "pins": [
+        [
+          1,
+          "+",
+          "+3V3",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "-",
+          "GND",
+          2.54,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        132.08,
+        71.12
+      ],
+      "shape": "cap",
+      "sch": [
+        257.81,
+        243.84
+      ],
+      "description": "Radial pitch 2.54 mm",
+      "fp": "Yoklama:C4_cap",
+      "uuid": "655e2205-b118-5df5-9d62-b576806725fb"
+    },
+    {
+      "ref": "C5",
+      "value": "100nF",
+      "pins": [
+        [
+          1,
+          "+",
+          "+5V_USB",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "-",
+          "GND",
+          2.54,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        88.9,
+        116.84
+      ],
+      "shape": "cap",
+      "sch": [
+        327.66,
+        243.84
+      ],
+      "description": "Radial pitch 2.54 mm",
+      "fp": "Yoklama:C5_cap",
+      "uuid": "db700069-2707-5823-986f-c575927fd431"
+    },
+    {
+      "ref": "R12",
+      "value": "10k",
+      "pins": [
+        [
+          1,
+          "1",
+          "+3V3",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "RFID_CS_GPIO5",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        81.28,
+        58.42
+      ],
+      "shape": "r",
+      "sch": [
+        139.7,
+        92.71
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R12_r",
+      "uuid": "b7c91bcb-3c7d-5a0f-adb3-9bd12c6e4c55"
+    },
+    {
+      "ref": "R13",
+      "value": "10k",
+      "pins": [
+        [
+          1,
+          "1",
+          "+3V3",
+          0,
+          0,
+          "passive"
+        ],
+        [
+          2,
+          "2",
+          "SD_CS_GPIO33",
+          7.62,
+          0,
+          "passive"
+        ]
+      ],
+      "xy": [
+        87.63,
+        69.85
+      ],
+      "shape": "r",
+      "sch": [
+        229.87,
+        92.71
+      ],
+      "description": "Axial 1/4 W, lead pitch 7.62 mm",
+      "fp": "Yoklama:R13_r",
+      "uuid": "39b6efbd-a691-58d7-9a5b-b82ce07ba411"
+    }
+  ],
+  "keepouts": [
+    [
+      14,
+      0,
+      36.8,
+      13.0
+    ],
+    [
+      90,
+      0,
+      135,
+      51
+    ]
+  ],
+  "board_mm": [
+    152.4,
+    187.96
+  ]
+}

@@ -1,0 +1,3737 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\ardas\\Projects\\Yoklama\\hardware\\dip-v1\\yoklama-dip-v1.kicad_sch")
+		(date "2026-09-08T12:00:49")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Yoklama DIP carrier / direct solder modules")
+				(company)
+				(rev "1.0-prototype")
+				(date "2026-09-08")
+				(source "yoklama-dip-v1.kicad_sch")
+				(comment
+					(number "1")
+					(value "USB power only; ESP32 DevKitC 38 pins; 2.54 mm pitch / 25.4 mm rows")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "BZ1")
+			(value "Passive piezo 5V")
+			(footprint "Yoklama:BZ1_buzzer")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:BZ1_buzzer")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "BZ1_buzzer")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b9246dc0-c839-5452-92cc-daddc5bc90bd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "100uF 10V")
+			(footprint "Yoklama:C1_cap")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:C1_cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "C1_cap")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bcad2407-1069-5539-b4a9-9e48d977a50f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "Yoklama:C2_cap")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:C2_cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "C2_cap")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0d025d86-89dc-57d3-9588-8b3c654d68e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100nF")
+			(footprint "Yoklama:C3_cap")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:C3_cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "C3_cap")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2570fb1f-fa31-51bc-9832-21f7cb12467c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "10uF 10V")
+			(footprint "Yoklama:C4_cap")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:C4_cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "C4_cap")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "655e2205-b118-5df5-9d62-b576806725fb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "100nF")
+			(footprint "Yoklama:C5_cap")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:C5_cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "C5_cap")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "db700069-2707-5823-986f-c575927fd431")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "LED blue")
+			(footprint "Yoklama:D1_led")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:D1_led")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "D1_led")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "91e4f631-df18-520a-ad1f-1937bef20439")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "LED green")
+			(footprint "Yoklama:D2_led")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:D2_led")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "D2_led")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "34e68880-ac79-5ac8-8539-9734af63d890")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "LED red")
+			(footprint "Yoklama:D3_led")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:D3_led")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "D3_led")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "014d226b-b7ee-5120-afaf-ea687c0a3fe8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "LED yellow")
+			(footprint "Yoklama:D4_led")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:D4_led")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "D4_led")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d4676dd4-69cf-553f-94ac-d8fc407c37bd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "1N4148")
+			(footprint "Yoklama:D5_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:D5_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "D5_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5d0ef9e8-b963-5de0-a905-393a9b3b0f01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "RC522 module")
+			(footprint "Yoklama:J1_rfid")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:J1_rfid")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "J1_rfid")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4d91d108-ad90-5fa2-8d1b-d0068ad43954")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "MicroSD 42x24 module")
+			(footprint "Yoklama:J2_sd")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:J2_sd")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "J2_sd")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1b5b4c39-bbbf-5abf-845e-c3faaf1a9d58")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "LCD1602 I2C 5V")
+			(footprint "Yoklama:J3_header")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:J3_header")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "J3_header")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "795794ac-0d00-578d-a96b-3092cfc82b23")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "2N7000")
+			(footprint "Yoklama:Q1_to92")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:Q1_to92")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "Q1_to92")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3c25cbed-6a89-5102-b967-ba382f63efd8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q2")
+			(value "2N7000")
+			(footprint "Yoklama:Q2_to92")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:Q2_to92")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "Q2_to92")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "04ef1b4c-f729-5e70-b951-09cb46318f7f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q3")
+			(value "BC337-40")
+			(footprint "Yoklama:Q3_to92")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:Q3_to92")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "Q3_to92")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1dad1f83-0bcb-58d7-ae08-63733354285c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "1k")
+			(footprint "Yoklama:R1_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R1_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R1_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4f6f0a4d-21e5-527e-845c-de872de42373")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "1k")
+			(footprint "Yoklama:R2_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R2_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R2_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c956916c-b434-54eb-91ca-04e6473da042")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "1k")
+			(footprint "Yoklama:R3_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R3_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R3_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3df02399-bf94-5895-88c5-38bf27bd36d6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "1k")
+			(footprint "Yoklama:R4_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R4_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R4_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fe3bf452-764e-5966-a054-8f6caec955fa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "4.7k")
+			(footprint "Yoklama:R5_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R5_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R5_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1927c1e4-7c39-517e-b27a-9e398fbab2d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "4.7k")
+			(footprint "Yoklama:R6_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R6_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R6_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8daf672d-1bdf-527c-b987-13a9a5bcbed9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "4.7k")
+			(footprint "Yoklama:R7_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R7_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R7_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "39842b97-2dba-5496-98d4-a1db1cce56e2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "4.7k")
+			(footprint "Yoklama:R8_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R8_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R8_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5d7e4ae3-2951-559c-810c-b654676fe3e7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "1k")
+			(footprint "Yoklama:R9_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R9_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R9_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "604c1d7d-2a3a-5743-9a74-6a5dff427d55")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "100k")
+			(footprint "Yoklama:R10_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R10_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R10_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "931b28c3-2e8a-5106-97e7-ec4544cc7aef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "10k")
+			(footprint "Yoklama:R11_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R11_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R11_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a2091f89-c0e9-508b-84ef-2b43328e8a0c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "10k")
+			(footprint "Yoklama:R12_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R12_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R12_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b7c91bcb-3c7d-5a0f-adb3-9bd12c6e4c55")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "10k")
+			(footprint "Yoklama:R13_r")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:R13_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "R13_r")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "39b6efbd-a691-58d7-9a5b-b82ce07ba411")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "ESP32-DevKitC 38 pin")
+			(footprint "Yoklama:U1_esp")
+			(fields
+				(field
+					(name "Footprint") "Yoklama:U1_esp")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Yoklama")
+				(part "U1_esp")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "yoklama-dip-v1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "yoklama-dip-v1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e71196f0-7ae2-5024-be53-383b8a952bea")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "38")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Yoklama")
+			(part "BZ1_buzzer")
+			(fields
+				(field
+					(name "Reference") "BZ")
+				(field
+					(name "Value") "Passive piezo 5V")
+				(field
+					(name "Footprint") "Yoklama:BZ1_buzzer")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "C1_cap")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "100uF 10V")
+				(field
+					(name "Footprint") "Yoklama:C1_cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "C2_cap")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "100nF")
+				(field
+					(name "Footprint") "Yoklama:C2_cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "C3_cap")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "100nF")
+				(field
+					(name "Footprint") "Yoklama:C3_cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "C4_cap")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "10uF 10V")
+				(field
+					(name "Footprint") "Yoklama:C4_cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "C5_cap")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "100nF")
+				(field
+					(name "Footprint") "Yoklama:C5_cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "D1_led")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED blue")
+				(field
+					(name "Footprint") "Yoklama:D1_led")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "D2_led")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED green")
+				(field
+					(name "Footprint") "Yoklama:D2_led")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "D3_led")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED red")
+				(field
+					(name "Footprint") "Yoklama:D3_led")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "D4_led")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED yellow")
+				(field
+					(name "Footprint") "Yoklama:D4_led")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "D5_r")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "1N4148")
+				(field
+					(name "Footprint") "Yoklama:D5_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "J1_rfid")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "RC522 module")
+				(field
+					(name "Footprint") "Yoklama:J1_rfid")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "SDA/SS")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "SCK")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "MOSI")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "MISO")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "IRQ")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "RST")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "3V3")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "J2_sd")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "MicroSD 42x24 module")
+				(field
+					(name "Footprint") "Yoklama:J2_sd")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "MISO")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "MOSI")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "SCK")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "CS")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "J3_header")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "LCD1602 I2C 5V")
+				(field
+					(name "Footprint") "Yoklama:J3_header")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "SCL")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "Q1_to92")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "2N7000")
+				(field
+					(name "Footprint") "Yoklama:Q1_to92")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "Q2_to92")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "2N7000")
+				(field
+					(name "Footprint") "Yoklama:Q2_to92")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "Q3_to92")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "BC337-40")
+				(field
+					(name "Footprint") "Yoklama:Q3_to92")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "C")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "E")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R10_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "100k")
+				(field
+					(name "Footprint") "Yoklama:R10_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R11_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "10k")
+				(field
+					(name "Footprint") "Yoklama:R11_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R12_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "10k")
+				(field
+					(name "Footprint") "Yoklama:R12_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R13_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "10k")
+				(field
+					(name "Footprint") "Yoklama:R13_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R1_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1k")
+				(field
+					(name "Footprint") "Yoklama:R1_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R2_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1k")
+				(field
+					(name "Footprint") "Yoklama:R2_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R3_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1k")
+				(field
+					(name "Footprint") "Yoklama:R3_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R4_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1k")
+				(field
+					(name "Footprint") "Yoklama:R4_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R5_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "4.7k")
+				(field
+					(name "Footprint") "Yoklama:R5_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R6_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "4.7k")
+				(field
+					(name "Footprint") "Yoklama:R6_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R7_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "4.7k")
+				(field
+					(name "Footprint") "Yoklama:R7_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R8_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "4.7k")
+				(field
+					(name "Footprint") "Yoklama:R8_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "R9_r")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1k")
+				(field
+					(name "Footprint") "Yoklama:R9_r")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Yoklama")
+			(part "U1_esp")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ESP32-DevKitC 38 pin")
+				(field
+					(name "Footprint") "Yoklama:U1_esp")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "3V3")
+					(type "power_out")
+				)
+				(pin
+					(num "2")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "VP")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "VN")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "IO34")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "IO35")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "IO32")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "IO33")
+					(type "output")
+				)
+				(pin
+					(num "9")
+					(name "IO25")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "IO26")
+					(type "output")
+				)
+				(pin
+					(num "11")
+					(name "IO27")
+					(type "output")
+				)
+				(pin
+					(num "12")
+					(name "IO14")
+					(type "output")
+				)
+				(pin
+					(num "13")
+					(name "IO12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "IO13")
+					(type "output")
+				)
+				(pin
+					(num "16")
+					(name "SD2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "SD3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "CMD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "5V")
+					(type "power_out")
+				)
+				(pin
+					(num "20")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "IO23")
+					(type "output")
+				)
+				(pin
+					(num "22")
+					(name "IO22")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "TX0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "RX0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "IO21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "IO19")
+					(type "input")
+				)
+				(pin
+					(num "28")
+					(name "IO18")
+					(type "output")
+				)
+				(pin
+					(num "29")
+					(name "IO5")
+					(type "output")
+				)
+				(pin
+					(num "30")
+					(name "IO17")
+					(type "output")
+				)
+				(pin
+					(num "31")
+					(name "IO16")
+					(type "output")
+				)
+				(pin
+					(num "32")
+					(name "IO4")
+					(type "output")
+				)
+				(pin
+					(num "33")
+					(name "IO0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "34")
+					(name "IO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "35")
+					(name "IO15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "36")
+					(name "SD1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "37")
+					(name "SD0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "CLK")
+					(type "bidirectional")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Yoklama")
+			(uri "${KIPRJMOD}/Yoklama.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/+3V3")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "8")
+				(pinfunction "3V3_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "G_2")
+				(pintype "input")
+			)
+			(node
+				(ref "Q2")
+				(pin "2")
+				(pinfunction "G_2")
+				(pintype "input")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "3V3_1")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "2")
+			(name "/+5V_USB")
+			(class "Default")
+			(node
+				(ref "BZ1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "VCC_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "VCC_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "5V_19")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "3")
+			(name "/BUZZER_BASE")
+			(class "Default")
+			(node
+				(ref "Q3")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/BUZZER_GPIO32")
+			(class "Default")
+			(node
+				(ref "R9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "IO32_7")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "5")
+			(name "/BUZZER_LOW")
+			(class "Default")
+			(node
+				(ref "BZ1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q3")
+				(pin "1")
+				(pinfunction "C_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Q3")
+				(pin "3")
+				(pinfunction "E_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "GND_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "GND_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "GND_26")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/LED_ERROR_A")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/LED_ERROR_GPIO17")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "IO17_30")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "9")
+			(name "/LED_NET_A")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/LED_NET_GPIO13")
+			(class "Default")
+			(node
+				(ref "R4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "IO13_15")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "11")
+			(name "/LED_OK_A")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/LED_OK_GPIO16")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "31")
+				(pinfunction "IO16_31")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "13")
+			(name "/LED_READY_A")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/LED_READY_GPIO4")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "32")
+				(pinfunction "IO4_32")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "15")
+			(name "/RFID_CS_GPIO5")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "SDA/SS_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "IO5_29")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "16")
+			(name "/RFID_MISO_GPIO19")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "MISO_4")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "IO19_27")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "17")
+			(name "/RFID_MOSI_GPIO23")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "MOSI_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "IO23_21")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "18")
+			(name "/RFID_RST_GPIO27")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "7")
+				(pinfunction "RST_7")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "IO27_11")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "19")
+			(name "/RFID_SCK_GPIO18")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "SCK_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "IO18_28")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "20")
+			(name "/SCL_3V3_GPIO22")
+			(class "Default")
+			(node
+				(ref "Q2")
+				(pin "1")
+				(pinfunction "S_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "IO22_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "21")
+			(name "/SCL_5V")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "SCL_4")
+				(pintype "input")
+			)
+			(node
+				(ref "Q2")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/SDA_3V3_GPIO21")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "S_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "IO21_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "23")
+			(name "/SDA_5V")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "SDA_3")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/SD_CS_GPIO33")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "6")
+				(pinfunction "CS_6")
+				(pintype "input")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "IO33_8")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "25")
+			(name "/SD_MISO_GPIO25")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "MISO_3")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "IO25_9")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "26")
+			(name "/SD_MOSI_GPIO26")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "MOSI_4")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "IO26_10")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "27")
+			(name "/SD_SCK_GPIO14")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "5")
+				(pinfunction "SCK_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "IO14_12")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(J1-IRQ-Pad5)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "5")
+				(pinfunction "IRQ_5")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(U1-CLK-Pad38)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "38")
+				(pinfunction "CLK_38")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(U1-CMD-Pad18)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "CMD_18")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(U1-EN-Pad2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "EN_2")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(U1-IO0-Pad33)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "33")
+				(pinfunction "IO0_33")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(U1-IO2-Pad34)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "34")
+				(pinfunction "IO2_34")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(U1-IO12-Pad13)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "IO12_13")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(U1-IO15-Pad35)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "35")
+				(pinfunction "IO15_35")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(U1-IO34-Pad5)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "IO34_5")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(U1-IO35-Pad6)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "IO35_6")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(U1-RX0-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "RX0_24")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(U1-SD0-Pad37)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "37")
+				(pinfunction "SD0_37")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(U1-SD1-Pad36)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "36")
+				(pinfunction "SD1_36")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(U1-SD2-Pad16)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "SD2_16")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(U1-SD3-Pad17)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "SD3_17")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(U1-TX0-Pad23)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "TX0_23")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(U1-VN-Pad4)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "VN_4")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(U1-VP-Pad3)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "VP_3")
+				(pintype "input+no_connect")
+			)
+		)
+	)
+)

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../_rhdefault.css"/><link rel="stylesheet" type="text/css" href="../assets/css/lx.css"/>
+<meta name="template" content="../assets/masterpages/LX Master.htt"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Limitations</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../ehlpdhtm.js"></script></head>
+
+<body page-style="x-size: Letter;">
+<div>
+<h1 position="fixed">LIMITATIONS</h1>
+<h3>Introduction</h3>
+<p>The creation of a schematic involves a lot of complex entities and different 
+ CAD packages may support different features or handle objects and connectivity 
+ in slightly different ways. As such, there are limitations to any import 
+ process.</p>
+<p>Known limitations are outlined below but please do <a href="mailto:support@labcenter.com">contact 
+ us</a> if you are having problems.</p>
+<h3>Limitations</h3>
+<ul type="disc">
+	<li>Currently only supports OrCAD v9.2 and OrCAD 17.2 EDIF2 file format.</li>
+	<li>Bitmaps (e.g. logos) are not present in the EDIF file so will not 
+	 be imported.</li>
+	<li>Non standard pin-name or pin number font sizing will be ignored; 
+	 the importer assumes a standard 100th spacing for device pins.</li>
+	<li>Module components (as opposed to drawn sub-circuits) are not currently 
+	 supported. </li>
+	<li>Hierarchical designs with sibling children are treated as carrying 
+	 hierarchical naming; design global annotation data (e.g. U3:A on sibling 
+	 1 and U3:B on sibling 2) is not present in the EDIF file and thus 
+	 cannot be preserved.</li>
+	<li>Hierarchical designs where a child module has more than one sheet 
+	 cannot be imported since this is not currently supported in Proteus.</li>
+	<li>Power nets are treated as global unless this is changed manually 
+	 on the ‘Edit Design Properties’ dialogue. This may lead to the netlist 
+	 comparison reporting extra connections since the EDIF format cannot 
+	 represent global power nets. The wiring of power nets in hierarchical 
+	 designs should be checked <span style="font-weight: bold;">very carefully</span> 
+	 to ensure that the imported design matches the original design intentions.</li>
+</ul>
+<p> </p>
+
+</div>
+<p> </p>
+
+</body></html>

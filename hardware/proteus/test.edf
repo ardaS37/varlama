@@ -1,0 +1,16 @@
+(edif TEST (edifVersion 2 0 0) (edifLevel 0) (keywordMap (keywordLevel 0))
+(status (written (timeStamp 2026 9 8 12 0 0) (program "OrCAD Capture" (version "17.2"))))
+(library LIB (edifLevel 0) (technology (numberDefinition (scale 1 (e 254 -7) (unit DISTANCE))) (figureGroup NORMAL (textHeight 6) (pathWidth 0)))
+(cell RES (cellType GENERIC) (view NORMAL (viewType SCHEMATIC) (interface
+(port P1 (direction INOUT) (designator "1")) (port P2 (direction INOUT) (designator "2"))
+(symbol (figure NORMAL (rectangle (pt 10 -5) (pt 30 5)))
+(portImplementation P1 (connectLocation (figure NORMAL (dot (pt 0 0)))) (figure NORMAL (path (pointList (pt 0 0) (pt 10 0)))))
+(portImplementation P2 (connectLocation (figure NORMAL (dot (pt 40 0)))) (figure NORMAL (path (pointList (pt 30 0) (pt 40 0)))))
+(keywordDisplay instance (display NORMAL (origin (pt 10 10))))))))
+(cell ROOT (cellType GENERIC) (view NORMAL (viewType SCHEMATIC) (interface) (contents
+(page PAGE1 (pageSize (rectangle (pt 0 0) (pt 1000 800)))
+(instance R1 (viewRef NORMAL (cellRef RES)) (transform (origin (pt 100 400))) (designator "R1"))
+(instance R2 (viewRef NORMAL (cellRef RES)) (transform (origin (pt 200 400))) (designator "R2"))
+(net N1 (joined (portRef P2 (instanceRef R1)) (portRef P1 (instanceRef R2))) (figure NORMAL (path (pointList (pt 140 400) (pt 200 400)))))
+)))))
+(design TEST (cellRef ROOT (libraryRef LIB))))

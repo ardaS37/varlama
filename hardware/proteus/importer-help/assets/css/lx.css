@@ -1,0 +1,428 @@
+/*Created with Adobe RoboHelp 8.*/
+body {
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-size: 10pt;
+}
+h1 {
+  font-family: Roboto;
+  margin-bottom: 0pt;
+  color: #46DEFF;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  padding-right: 0px;
+  text-align: left;
+  font-size: 28pt;
+  x-next-class: ;
+  x-next-type: H2;
+  margin-top: 0pt;
+  line-height: Normal;
+  padding-left: 375px;
+  background-color: #061E35;
+  background-repeat: No-Repeat;
+  background-image: url(../images/lx_header.png);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-position: Left Center;
+  font-weight: 200;
+}
+h2 {
+  font-weight: 300;
+  font-family: Roboto;
+  padding-left: 10px;
+  font-size: 24pt;
+  color: #022E5F;
+  margin-bottom: 0pt;
+  x-next-class: ;
+  x-next-type: P;
+  margin-top: 6pt;
+  font-variant: normal;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  text-decoration: none;
+  border-width: 1px;
+  border-color: #FFE339;
+  border-left-width: 0;
+  border-top-color: #FFE339;
+  border-right-width: 0;
+  border-bottom-color: #FFE339;
+  border-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+h3 {
+  font-weight: bold;
+  font-family: Roboto;
+  color: #022E5F;
+  font-size: 14pt;
+  margin-top: 8pt;
+  border-bottom-width: 2px;
+  x-next-class: ;
+  x-next-type: P;
+  margin-bottom: 8pt;
+  border-width: 2px;
+  border-color: #1C79B3;
+  border-left-width: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-color: #1C79B3;
+  border-style: solid;
+  border-bottom-style: solid;
+  border-top-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+h4 {
+  font-weight: 500;
+  margin-top: 6pt;
+  margin-bottom: 0pt;
+  font-family: Roboto;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #1C79B3;
+  text-decoration-thickness: 1px;
+  color: #022E5F;
+  x-next-class: ;
+  x-next-type: P;
+  font-size: 11pt;
+}
+h5 {
+  font-weight: normal;
+  margin-top: 6pt;
+  margin-bottom: 0pt;
+  font-family: Roboto;
+  color: #022E5F;
+  x-next-class: ;
+  x-next-type: P;
+  font-size: 10pt;
+  text-decoration: underline;
+  border-width: 1px;
+  border-color: #022E5F;
+  border-left-width: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 1px;
+  border-bottom-color: #022E5F;
+  border-style: none;
+  border-bottom-style: none;
+}
+p {
+  margin-bottom: 0pt;
+  font-family: Roboto;
+  margin-top: 6pt;
+  font-size: 10pt;
+  font-weight: 400;
+}
+a.expandspot {
+  color: #008000;
+  cursor: hand;
+  font-style: italic;
+  font-family: Roboto;
+  font-size: 10pt;
+  text-decoration: none;
+}
+span.expandtext {
+  font-style: italic;
+  font-weight: normal;
+  color: #ff0000;
+  font-family: Roboto;
+  font-size: 10pt;
+}
+a.dropspot {
+  cursor: hand;
+  color: #008000;
+  font-style: italic;
+  font-family: Roboto;
+  font-size: 10pt;
+  text-decoration: none;
+}
+a.glossterm {
+  color: #800000;
+  cursor: hand;
+  font-style: italic;
+  font-family: Roboto;
+  font-size: 10pt;
+  text-decoration: none;
+}
+span.glosstext {
+  font-style: italic;
+  font-weight: normal;
+  color: #0000ff;
+  font-family: Roboto;
+  font-size: 10pt;
+}
+/*IRC: Need to suffix the list-style with important to override RH's inline styles
+Note that this means that *all* lists will use this bullet unless similarly declared.*/
+ol,
+ul {
+  font-family: Roboto;
+  margin-left: 15pt;
+  margin-top: 4pt;
+  margin-bottom: 0pt;
+  list-style: url(../images/../images/bullet_blue.png) ! important;
+  color: #000000;
+  font-size: 10pt;
+}
+a.breadcrumbs {
+  font-family: Roboto;
+  font-size: 10pt;
+}
+a:active {
+  color: #00ff00;
+  font-family: Roboto;
+  font-size: 10pt;
+  text-decoration: underline;
+}
+a:hover {
+  font-family: Roboto;
+  font-size: 10pt;
+}
+a:link {
+  color: #0000ff;
+  font-family: Roboto;
+  font-size: 10pt;
+  text-decoration: underline;
+}
+a:visited {
+  color: #ff0000;
+  font-family: Roboto;
+  font-size: 10pt;
+  text-decoration: underline;
+}
+a.popupspot {
+  font-family: Roboto;
+  font-size: 10pt;
+}
+p.Tip {
+  background-repeat: No-Repeat;
+  background-color: #D7E6F5;
+  color: #1C79B3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-position: 10px Center;
+  padding-left: 35px;
+  background-image: url(../images/info.png);
+  font-family: Roboto;
+  border-width: 1px;
+  border-color: #061E35;
+  border-left-width: 1px;
+  border-left-color: #061E35;
+  border-top-width: 1px;
+  border-top-color: #061E35;
+  border-right-width: 1px;
+  border-right-color: #061E35;
+  border-bottom-width: 1px;
+  border-bottom-color: #061E35;
+  border-style: solid;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+p.Warning {
+  background-repeat: No-Repeat;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-position: 10px Center;
+  padding-left: 35px;
+  background-image: url(../images/warning.png);
+  background-color: #f9ecd2;
+  color: #de5729;
+  border-width: 1px;
+  border-color: #FFE339;
+  border-left-width: 1px;
+  border-left-color: #FFE339;
+  border-top-width: 1px;
+  border-top-color: #FFE339;
+  border-right-width: 1px;
+  border-right-color: #FFE339;
+  border-bottom-width: 1px;
+  border-bottom-color: #FFE339;
+  border-style: solid;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  font-family: Roboto;
+}
+p.Reference {
+  background-repeat: No-Repeat;
+  background-position: 10px Center;
+  padding-left: 35px;
+  background-image: url(../images/Reference.gif);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: Roboto;
+}
+p.Movie {
+  background-repeat: No-Repeat;
+  background-color: #d7e6f5;
+  color: #1C79B3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-position: 10px Center;
+  padding-left: 35px;
+  background-image: url(../images/movie.png);
+  font-family: Roboto;
+  border-width: 1px;
+  border-color: #061E35;
+  border-left-width: 1px;
+  border-left-color: #061E35;
+  border-top-width: 1px;
+  border-top-color: #061E35;
+  border-right-width: 1px;
+  border-right-color: #061E35;
+  border-bottom-width: 1px;
+  border-bottom-color: #061E35;
+  border-style: solid;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+}
+span.rls-1-SeeAlso {
+  font-family: Roboto;
+  font-size: 10pt;
+}
+table.LXTable {
+  x-1st-row: 1;
+  border-left-style: Solid;
+  border-right-style: Solid;
+  border-top-style: Solid;
+  border-bottom-style: Solid;
+  x-row-pat-count: 2;
+  x-border-spacing: 0px;
+  color: #000000;
+  border-left-color: #0c42b1;
+  border-right-color: #0c42b1;
+  border-top-color: #0c42b1;
+  border-bottom-color: #0c42b1;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+}
+table.LXTable td {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+table.LXTable tr:nth-child(even) td {
+  font-family: 'Courier New';
+  font-size: 9pt;
+  border-left-style: Solid;
+  border-right-style: Solid;
+  border-top-style: Solid;
+  border-bottom-style: Solid;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-color: #061E35;
+  border-right-color: #061E35;
+  border-top-color: #061E35;
+  border-bottom-color: #061E35;
+}
+table.LXTable tr:nth-child(odd) td {
+  font-family: 'Courier New';
+  font-size: 9pt;
+  border-left-style: Solid;
+  border-right-style: Solid;
+  border-top-style: Solid;
+  border-bottom-style: Solid;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-color: #061E35;
+  border-right-color: #061E35;
+  border-top-color: #061E35;
+  border-bottom-color: #061E35;
+}
+table.LXTable tr:first-child td {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-style: Solid;
+  border-right-style: Solid;
+  border-top-style: Solid;
+  border-bottom-style: Solid;
+  border-left-color: #061E35;
+  border-right-color: #061E35;
+  border-top-color: #061E35;
+  border-bottom-color: #061E35;
+  font-family: Roboto;
+  font-size: 10pt;
+  font-weight: 100;
+  text-align: Center;
+  background-color: #022E5F;
+  color: #46DEFF;
+}
+p.DiagramText {
+  font-family: Roboto;
+  font-size: 11pt;
+  text-align: center;
+  font-style: italic;
+  margin-top: 2pt;
+  margin-bottom: 8pt;
+}
+p.Diagram {
+  font-family: Roboto;
+  font-size: 10pt;
+  text-align: center;
+  margin-top: 8pt;
+  margin-bottom: 2pt;
+  x-next-class: DiagramText;
+  x-next-type: P;
+}
+p.Courier {
+  margin-bottom: 0pt;
+  font-size: 10pt;
+  font-family: "Courier New";
+  margin-top: 4pt;
+}
+p.ExampleTitle {
+  margin-bottom: 0pt;
+  font-family: Roboto;
+  margin-top: 6pt;
+  font-size: 10pt;
+  font-weight: bold;
+  x-next-class: ;
+  x-next-type: P;
+  text-decoration: underline;
+}
+ul.bulletblue {
+  list-style: url(../images/../images/bullet_blue.png);
+}
+ul.bulletblue>li {
+  font-family: Roboto;
+  margin-left: 5pt;
+  margin-top: 4pt;
+  margin-bottom: 0pt;
+  color: #000000;
+  font-size: 10pt;
+}
+ol.Numbers {
+  list-style: decimal;
+}
+ol.Numbers>li {
+  font-family: Roboto;
+  color: #000000;
+  font-size: 10pt;
+  margin-top: 4pt;
+  margin-left: 5pt;
+  margin-bottom: 0pt;
+}

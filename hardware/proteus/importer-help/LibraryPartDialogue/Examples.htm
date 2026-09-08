@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../_rhdefault.css"/><link rel="stylesheet" type="text/css" href="../assets/css/lx.css"/>
+<meta name="template" content="../assets/masterpages/LX Master.htt"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Examples</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../ehlpdhtm.js"></script></head>
+
+<body page-style="x-size: Letter;">
+<div>
+<h1 position="fixed">EXAMPLES</h1>
+<p> </p>
+<h3 style="margin-right: 0px;"><a id="Import_from_Digikey"></a>Import 
+ Parts from Digikey    <img src="../assets/images/Images/digikeyLogo.png" alt="" style="border: none;" width="112" height="59" border="0"/></h3>
+<p>1) On the Digikey <a href="https://www.digikey.co.uk/" target="_blank">website</a> 
+ use the EDA/CAD filter to restrict your result set to parts with included 
+ schematic components and layout footprints.</p>
+<p class="Diagram"><img src="../assets/images/Images/digikeyEDAFilter.png" alt="" style="border: none;" width="450" height="158" border="0"/></p>
+<p>2) Select the part you want from the resulting data set and click on 
+ the Ultra-Librarian (or SnapEDA) link to visit their site.</p>
+<p class="Diagram"><img src="../assets/images/Images/digikeyULDownload.png" alt="" style="border: none;" width="537" height="124" border="0"/></p>
+<p class="Tip">You may need to log in to your Digikey account at this stage.</p>
+<p>3) Select the Proteus format from the Ultra-Librarian site and download 
+ the resulting zip file to your computer.</p>
+<p class="Diagram"><img src="../assets/images/Images/digikeyULSite.png" alt="" style="border: none;" width="429" height="265" border="0"/></p>
+<p>4) From inside Proteus launch the Import Part Wizard from the Library 
+ Menu and bring in the zip file.</p>
+<p class="Diagram"><img src="../assets/images/Images/ultraLibrarianImportPart.png" alt="" style="border: none;" width="1029" height="213" border="0"/></p>
+<p>5) Review the log for import warnings.</p>
+<p class="Diagram"><img src="../assets/images/Images/ultraLibrarianLog.png" alt="" style="border: none;" width="410" height="174" border="0"/></p>
+<p>6) Use the Import Part command to bring in both the schematic component 
+ and the PCB footprint. If the downloaded zip file contains a 3D STEP model 
+ this will also be brought in as part of the import process.</p>
+<p class="Diagram"><img src="../assets/images/Images/importPartOnDialogue.png" alt="" style="border: none;" width="348" height="236" border="0"/></p>
+<p>You are actually running the PCB Make Package Wizard followed immediately 
+ by the schematic Make Device wizard in this last step. This provides you 
+ with opportunity to enter extra information and specify a destination 
+ library for the part.</p>
+<p class="ExampleTitle">See Also:</p>
+<p class="Reference"><a href="ISIS.chm::/LIBRARY_FACILITIES/Device_Libraries.htm#The_Make_Device_Command">Make 
+ Device (Schematic)</a></p>
+<p class="Reference"><a href="ARES.chm::/LIBRARY_FACILITIES/Package_Library.htm#Making_A_Package">Make 
+ Package (Layout)</a></p>
+<h4> </h4>
+<h4><a id="Manipulating_the_Schematic_Part"></a>Manipulating the Schematic 
+ Part</h4>
+<p>If the schematic part is large and you want to split it into several 
+ elements or change the pin ordering the easiest way to do so is before 
+ you import that part (i.e. before stage 6 outlined above). Edit the settings 
+ and lower the schematic pin threshold so that the body editor screen will 
+ be shown during the import process.</p>
+<p class="Diagram"><img src="../assets/images/Images/bodyEditorSettings.png" alt="" style="border: none;" width="587" height="157" border="0"/></p>
+<p>The body editor allows you to both re-organise the pins on the schematic 
+ and also to split / fragment the schematic symbol into multiple elements.</p>
+<p class="ExampleTitle">See Also:</p>
+<p class="Reference"><a href="The_Body_Editor.htm">The Body Editor</a></p>
+<h3><a id="Import_from_Samacsys"></a>Import from Samacsys    <img src="../assets/images/Images/samacsysLogo.png" alt="" style="border: none;" width="165" height="46" border="0"/></h3>
+<p style="font-weight: normal;"><strong style="font-weight: normal;">SamacSys 
+ is the leading developer of software tools for creating and managing electronic 
+ component ECAD data. To import one of their schematic or PCB footprints, 
+ you can do so by using the following procedure:</strong></p>
+<p class="Warning">(Note that we are assuming that you currently have a 
+ Proteus project with a schematic and a PCB tab already open!).</p>
+<p style="font-weight: normal;">1. Install the free Library Loader: <a href="http://www.samacsys.com/library-loader/" target="_blank">http://www.samacsys.com/library-loader/</a></p>
+<p style="font-weight: normal;">2. Create an account in Library loader</p>
+<p style="font-weight: normal;">3. Set the download and tool settings to 
+ your requirements:</p>
+<p style="font-weight: normal;"><img src="../assets/images/Images/libraryLoaderSettings.png" alt="" style="border: none;" width="443" height="252" border="0"/></p>
+<p style="font-weight: normal;"> </p>
+<p style="font-weight: normal;">4. Set the library paths to your Proteus 
+ installed library:</p>
+<p style="font-weight: normal;"><img src="../assets/images/Images/libraryLoaderLibrarySettings.png" alt="" style="border: none;" width="276" height="202" border="0"/></p>
+<p style="font-weight: normal;"> </p>
+<p style="font-weight: normal;">5. Click on Search for parts</p>
+<p style="font-weight: normal;"><img src="../assets/images/Images/libraryLoaderSearchParts.png" alt="" style="border: none;" width="443" height="77" border="0"/></p>
+<p style="font-weight: normal;"> </p>
+<p style="font-weight: normal;">6. This opens the download page <a href="https://componentsearchengine.com" target="_blank">https://componentsearchengine.com</a>, here type in 
+ the name of the device you are looking for and when it loads, click on 
+ Free Download (this is only available if you have created an account!).</p>
+<p style="font-weight: normal;"><img src="../assets/images/Images/libraryloaderFreeDownload.png" alt="" style="border: none;" width="537" height="463" border="0"/> </p>
+<p style="font-weight: normal;"> </p>
+<p style="font-weight: normal;">7. Save the zip file to the same directory 
+ as you have set in the library folder in our case it is C:\Proteus\. If 
+ you have selected the &#39;Show Library Import Instructions&#39; box in the Settings, 
+ the Log will then appear showing the importing status:</p>
+<p style="font-weight: normal;"><img src="../assets/images/Images/libraryLoaderLog.png" alt="" style="border: none;" width="369" height="303" border="0"/></p>
+<p class="Tip">If this is unchecked then the above box will <span style="font-style: italic;">not</span> 
+ appear. It is better to generally have the box unchecked, and if you run 
+ in to importing problems, you can check the box to see any errors.</p>
+<p style="font-weight: normal;"> </p>
+<p style="font-weight: normal;">8. At this point the device and/or package 
+ will automatically appear in the object selector in Proteus on either 
+ the schematic or the PCB Layout, ready for placement.</p>
+<p style="font-weight: normal;"> </p>
+<h3><a id="Import_from_PCB_Library_Expert"></a>Import from PCB Library 
+ Expert    <img src="../assets/images/Images/pcbLibrariesLogo.png" alt="" style="border: none;" width="195" height="66" border="0"/></h3>
+<p>The PCB Library Expert Enterprise is a powerful CAD library development 
+ tool powered by their own proprietary <strong>CAD LEAP<sup>TM</sup> Technology</strong> 
+ (Libraries Enhanced with Automated Preferences). It is packed with very 
+ powerful advanced library management features that cuts footprint creation 
+ costs by as much as 99% per part.</p>
+<p> </p>
+<p class="Tip">We are assuming that you have a project already open when 
+ importing devices from PCB Libraries Expert.</p>
+<p> </p>
+<p>1. In PCB Libraries Experts software, once you have created your package 
+ click on the Build icon</p>
+<p><img src="../assets/images/Images/pcbBuildIcon.png" alt="" style="border: none;" width="209" height="111" border="0"/></p>
+<p>2. Select Proteus as the Translator, and the &#39;Set Default Format&#39; should 
+ be checked:</p>
+<p><img src="../assets/images/Images/pcbLibraryProteusFormat.png" alt="" style="border: none;" width="457" height="182" border="0"/></p>
+<p> </p>
+<p>3. Select the PADS Version to be 9.5, Set the Output Directory to save 
+ the file to, and the format to be Parts and Decal (ASCII is the Legacy 
+ version!)</p>
+<p> </p>
+<p><img src="../assets/images/Images/PCBLibraryPartsAndDecal.png" alt="" style="border: none;" width="478" height="207" border="0"/></p>
+<p> </p>
+<p>4. Click on Create</p>
+<p><img src="../assets/images/Images/pcbLibraryCreate.png" alt="" style="border: none;" width="157" height="213" border="0"/></p>
+<p> </p>
+<p>5. In Proteus, go to the Library Menu &gt; Import Parts and click on 
+ Select File. In the open window, select the File type to be &#39;PCB Libraries&#39; 
+ and navigate to the saved *.P file and select Open.</p>
+<p><img src="../assets/images/Images/pcbLibraryImportPart.png" alt="" style="border: none;" width="554" height="380" border="0"/></p>
+<p> </p>
+<p>6. Continue with the Proteus Make Device / Make Package forms and save 
+ the part in to your libraries. </p>
+<p> </p>
+<h3><a id="Import_from_Ultra_Librarian"></a>Import from Ultra Librarian 
+    <img src="../assets/images/Images/ultraLibrarianLogo.png" alt="" style="border: none;" width="134" height="66" border="0"/></h3>
+<p>Ultra Librarian utilize globally recognized industry standards from 
+ IPC-7351B for PCB footprints, ASNI Y32.2-1975 (reaffirmed 1989) for schematic 
+ symbols, and ISO10303-21 for 3D STEP models. You can downloads thousands 
+ of schematic or footprints from their <a href="https://www.ultralibrarian.com/" target="_blank">website</a></p>
+<p> </p>
+<p>1. On their website, find the part you are looking for through the search 
+ function:</p>
+<p><img src="../assets/images/Images/ulResistorSearch.png" alt="" style="border: none;" width="285" height="76" border="0"/></p>
+<p> </p>
+<p>2. On the list that appears, click on the <span style="font-style: italic;">Models 
+ Available</span> link on the device that you need:</p>
+<p><img src="../assets/images/Images/ulModelsAvailable.png" alt="" style="border: none;" width="253" height="135" border="0"/> </p>
+<p>This will provide you with a preview and download options for the part.</p>
+<p>3. Set Proteus as the CAD Format, set the pin numbering to be either 
+ sequential (in order 1,2,3 etc..) or Functional (Power pins, Signal Pins, 
+ Port Pins etc..) and the units of the PCB footprint and click on Download.</p>
+<p><img src="../assets/images/Images/ulDownload.png" alt="" style="border: none;" width="519" height="319" border="0"/></p>
+<p> </p>
+<p>4. Save the Zip file to your Hard drive.</p>
+<p>5. In Proteus, go to the Library Menu &gt; Import Parts and click on 
+ Select File. In the open window, select the File type to be Ultra Librarian 
+ and navigate to the saved ZIP file:</p>
+<p><img src="../assets/images/Images/ulSaveFile.png" alt="" style="border: none;" width="625" height="363" border="0"/></p>
+<p> </p>
+<p>6. Open the zip file and it will appear in the Import form. Click on 
+ <span style="font-style: italic;">Import Part</span> and save the package 
+ and the schematic symbol into your libraries.</p>
+<p><img src="../assets/images/Images/ulImportedDevice.png" alt="" style="border: none;" width="382" height="302" border="0"/></p>
+<p> </p>
+<h3><a id="Import_from_RS_Online"></a>Import from RS Online    <img src="../assets/images/Images/rsOnlineLogo.png" alt="" style="border: none;" width="67" height="55" border="0"/></h3>
+<p>RS Online is an international online electronics vendor with over 500,000 
+ electronics components from over 2,500 trusted brands. You will need to 
+ have the Library Loader software installed: <a href="http://rs.componentsearchengine.com/pcb-libraries.php" target="_blank">http://rs.componentsearchengine.com/pcb-libraries.php</a></p>
+<p> </p>
+<p>1. On RS Online&#39;s <a href="https://uk.rs-online.com/web/" target="_blank">website</a>, 
+ find your component. For this example we are using the <span style="font-style: italic;"><a href="https://uk.rs-online.com/web/p/rectifier-schottky-diodes/6289502/" target="_blank">Vishay 1N5408-E3/54 Diode, 1000V 3A, 2-Pin DO-201AD</a>.</span></p>
+<p>2. Click on the Explore all Technical Documents link:</p>
+<p><img src="../assets/images/Images/rsTechnicalDocuments.png" alt="" style="border: none;" width="496" height="160" border="0"/></p>
+<p> </p>
+<p>3. Click on <span style="font-style: italic;">Schematic Symbol &amp; 
+ PCB Footprint</span> and download the file.</p>
+<p><img src="../assets/images/Images/rsSchematicFootprint.png" alt="" style="border: none;" width="331" height="146" border="0"/></p>
+<p> </p>
+<p>4. Open the Library Loader and click on the Open EPW File link:</p>
+<p><img src="../assets/images/Images/rsOpenEPWFile.png" alt="" style="border: none;" width="506" height="145" border="0"/></p>
+<p> </p>
+<p>5. Navigate to either the Zip file or the extracted *.EPW file, the 
+ loader will open either one and it will be automatically imported in to 
+ the Object selector in Proteus.</p>
+<p><img src="../assets/images/Images/rsImportedInToProteus.png" alt="" style="border: none;" width="500" height="167" border="0"/></p>
+<p> </p>
+<h3><a id="Import_from_SnapEDA"></a>Import from SnapEDA    <img src="../assets/images/Images/snapedaLogo.png" alt="" style="border: none;" width="135" height="42" border="0"/></h3>
+<p>SnapEDA is the Internet&#39;s pioneering, market-leading parts library for 
+ circuit board design. You can import their schematic and PCB parts in 
+ to Proteus from their <a href="https://www.snapeda.com" target="_blank">website</a> 
+ by following these instructions:</p>
+<p>1. On SnapEDA&#39;s website, search for your component and make sure that 
+ it contains the models that you require (on the RHS of the website page):</p>
+<p><img src="../assets/images/Images/snapedaModelContent.png" alt="" style="border: none;" width="116" height="29" border="0"/></p>
+<p>2. click on the Download button:</p>
+<p><img src="../assets/images/Images/snapDownloadPart.png" alt="" style="border: none;" width="313" height="98" border="0"/></p>
+<p>3. Select Proteus from the list and save the file to your hard drive</p>
+<p>4. In Proteus, go to Library &gt; Import Parts and click on Select File</p>
+<p>5. Select the file type to be SnapEDA and open your file:</p>
+<p><img src="../assets/images/Images/snapFileType.png" alt="" style="border: none;" width="288" height="139" border="0"/></p>
+<p>6. Now it&#39;s loaded, click on Import Part and save it to your Proteus 
+ libraries. </p>
+<p><img src="../assets/images/Images/snapImportPart.png" alt="" style="border: none;" width="477" height="312" border="0"/></p>
+<p> </p>
+<h3><a id="Import_BSDL_File"></a>Import BSDL File</h3>
+<p>BSDL files can be found and downloaded from a vast array of manufacturers 
+ websites and there are also some free collection websites such as <a href="http://www.bsdl.info" target="_blank">http://www.bsdl.info</a>. Having downloaded the file(s) 
+ to your computer you can then import them via the Library Menu in the 
+ schematic application module.</p>
+<p class="Diagram"><img src="../assets/images/Images/importPartMenu.png" alt="" style="border: none;" width="173" height="109" border="0"/></p>
+<p class="DiagramText">Import File.</p>
+<p>Navigate to and select the BSDL file on your computer. Proteus will 
+ then parse the file and, assuming no errors, will launch a modified version 
+ of the Make Device dialogue form.</p>
+<p class="Tip">If you receive a parse error from your BSDL file please 
+ e-mail us with the file attached at support@labcenter.com. Most often 
+ this is a simple syntax error in the manufacturers file and is easily 
+ fixed.</p>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_frontpage.png" alt="" style="border: none;" width="552" height="468" border="0"/> </p>
+<p class="Diagram">BSDL Configuration Dialogue.</p>
+<p>While the BSDL file contains a lot of helpful information, configuring 
+ the part for use in Proteus still requires some thought by the designer. 
+ The configuration screen of the dialogue form is the place where most 
+ of the decisions are made.</p>
+<h4>Pin List</h4>
+<p>The pin list is the collection of pin names imported from the BSDL file 
+ and is shown at the left hand side of the dialogue. The important thing 
+ to realise is that this will be the order of placement, according to the 
+ selected Pins Layout option. What you see in this list after import is 
+ likely to be a list of pins in a random order and would form a very messy 
+ schematic part. The first job therefore is to group pins together that 
+ belong together on the schematic (pins on a bus being the obvious example).</p>
+<h5>Re-ordering the List</h5>
+<p>Selection of pins in the list works exactly like Windows explorer, namely:</p>
+<p><span style="font-weight: bold; text-decoration: underline; ">To select 
+ a contiguous group of pins:</span> Click to select the first item. Hold 
+ Shift button down and click on the last item (or drag the mouse down).</p>
+<p><span style="font-weight: bold; text-decoration: underline; ">To select 
+ a disparate group of pins:</span> Click to select the first item. Hold 
+ CTRL button down and click on items you want to select.</p>
+<p>Once the pins you want are selected, you can move them up or down using 
+ the buttons to the right.</p>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_movingpins.png" alt="" style="border: none;" width="720" height="320" border="0"/></p>
+<p class="DiagramText">Re-ordering the PORTA Pins into logical positions.</p>
+<p style="font-weight: bold; text-decoration: underline; ">Inserting Blank 
+ lines</p>
+<p style="font-weight: normal; text-decoration: none; ">Click on the &#39;Add/Remove 
+ Gap / Element&#39; button to insert a blank line / gap on the physical design.</p>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_AddGap.png" alt="" style="border: none;" width="781" height="243" border="0"/></p>
+<p class="ExampleTitle">Inserting Component Separators</p>
+<p>Often, BSDL Files are created for large pin count parts or BGA&#39;s. The 
+ problem with creating this as a single component is that the resulting 
+ part will be so large and unwieldy that is unlikely to fit on a single 
+ schematic sheet. We have therefore added the ability to insert component 
+ separators to the pin grid. These will split the component into multiple 
+ elements which are far more manageable on the schematic.</p>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_AddElement.png" alt="" style="border: none;" width="267" height="441" border="0"/></p>
+<p class="DiagramText">1 click creates gap, 2nd click creates element, 
+ 3rd click removes the element and / or gap. </p>
+<p class="Tip">Adding a blank line (a gap) will appear as a series of dashed 
+ lines in the pin grid whilst adding a component separator will appear 
+ as a series of stars in the pin grid. The button itself is tri-state.</p>
+<h4><a id="Visible_Power___NC_Pins"></a>Visible Power / NC Pins</h4>
+<p>Some users prefer for design auditing purposes to have all power and 
+ NC pins visible and connected on the schematic. This is controlled via 
+ the hide power pin / NC pin checkboxes on the dialogue.</p>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_HiddenPins.png" alt="" style="border: none;" width="330" height="62" border="0"/></p>
+<p>There are several things to bear in mind here:</p>
+<ul type="disc">
+	<li>Power pins with the same name can be hidden and will then connect 
+	 to the net with that name. Similarly, all pins named NC can be hidden 
+	 and will be connected to the NC net in the packaging tool.</li>
+	<li>When power pins are hidden all pins with the same name are added 
+	 to the packaging as virtual pins and connectivity is achieved by matching 
+	 the pin name to the net name. E.g. All hidden pins named GND are connected 
+	 to the GND net.</li>
+	<li>When NC pins are hidden the pins are added  virtually to the 
+	 NC pins list in the packaging tool.</li>
+</ul>
+<p>If you make power pins visible then you will receive a set of pins all 
+ will the same name and you should then connect them to the power rail 
+ manually. For example, you will end up with GND_01, GND_02, GND_03 etc. 
+ and you must tie all the lines to GND on the schematic.</p>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_VisableGNDSchematic.png" alt="" style="border: none;" width="201" height="171" border="0"/></p>
+<p>NC Pins will similarly be broken out and you should tie all these lines 
+ to an NC terminal.</p>
+<p class="Diagram"><img src="../assets/images/Images/ncPins.png" alt="" style="border: none;" width="756" height="146" border="0"/></p>
+<p class="Tip">It is not strictly necessary to connect visible pins with 
+ the name NC to NC terminals However, if they are visible the only legal 
+ connection that can be made to them is an NC terminal so if you don&#39;t 
+ want the visual clarity of having them present and connected to NC terminals 
+ then it is far simpler to hide them altogether.</p>
+<h5><a id="Renaming_Pins_on_the_List"></a>Renaming Pins on the List</h5>
+<p>Much like the ordering of the pins, the naming of the pins is imported 
+ raw from the BSDL file. This means that you need to be aware of software 
+ behaviour regarding connectivity, hidden pins and pin naming. It all boils 
+ down to two simple rules:</p>
+<p style="font-weight: bold;">1) Pins with the same name on a device are 
+ deemed internally connected.</p>
+<p style="font-weight: bold;">2) Pins named NC will be considered Not Connected 
+ pins.</p>
+<p style="font-weight: normal;">Aesthetic changes aside, there are therefore 
+ two areas where the user may want to rename some pins. The first and most 
+ important is power pins. A pin is deemed a power pin where it&#39;s electrical 
+ type is specified as power. When we look at the pin list you may find 
+ that there are multiple power pins with different names serving the same 
+ function. This depends entirely on the BSDL file - some vendors use individually 
+ named pins (VDD1, VDD2, VDD3, etc.) while others use a bit vector to describe 
+ multiple pins with the same name (VDD). In the former case, you are likely 
+ to end up with multiple physical pins on the schematic part, all of which 
+ will need to be wired together and joined to the correct supply.</p>
+<p> </p>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_powerpins.png" alt="" style="border: none;" width="631" height="350" border="0"/></p>
+<p class="DiagramText">Example of Power Pins after Import - schematic wiring 
+ serves to connect the pins to supply.</p>
+<p>As we&#39;ve seen in the section above (visible power pins) this is a perfectly 
+ sensible way to work. It means for example that a printout of the schematic 
+ will be more reflective of the design than if the pins were hidden. However, 
+ you need to know that if your power pins are visible that at least one 
+ pin with each name is connected to a power rail. We would suggest however 
+ that if you choose to make your power pins visible that you group them 
+ together (e.g into a separate element) and then tie them all to their 
+ designated supplies with terminals.</p>
+<p>The alternative is to rename the three pins in the pinlist to have the 
+ same name (VDD). If you do this then, provided the pins are of electrical 
+ type power <span style="font-weight: bold;">and the hide power pins checkbox 
+ is selected</span>, the five pins will become hidden pins not visible 
+ on the schematic part and will be automatically connected together and 
+ joined to the VDD supply. This has the advantage of smaller schematic 
+ parts and less wiring but at the expense of some transparency. Click on 
+ the &#39;Apply&#39; button to change the pin name. </p>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_renamingpins.png" alt="" style="border: none;" width="775" height="119" border="0"/></p>
+<p class="DiagramText">Renaming a group of pins.</p>
+<p class="Tip">Regardless of which method you adopt, the <a href="isis.chm::/NETLIST_GENERATION/Power_Rail_Configuration.htm">Power 
+ Rail Configuration dialogue</a> can be used to double check that your 
+ power nets are all connected up properly.</p>
+<p>The second area where pin naming is particularly relevant is not connected 
+ or NC pins. Any pin which has a name <span style="font-family: &#39;Courier New&#39;, monospace;">NC</span> 
+ is designated as a not connected pin. When the <span style="font-weight: bold;">hide 
+ NC pins checkbox is selected</span> all such pins are removed from the 
+ physical schematic part and are automatically added to the not connected 
+ pin list in the packaging phase of the import wizard.</p>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_ncpins.png" alt="" style="border: none;" width="298" height="144" border="0"/></p>
+<p class="DiagramText">NC Pins in the Packaging Tool.</p>
+<p>Most times, no action is required by the user as the not connected pins 
+ will be cleaned up and packaged as you progress through the import wizard. 
+ If you want your NC pins to be visible then you need to uncheck the hide 
+ NC Pins checkbox.</p>
+<p class="Diagram"><img src="../assets/images/Images/bsdlNCPins.png" alt="" style="border: none;" width="330" height="62" border="0"/></p>
+<p>If you do this, we&#39;d recommend that you tie all the NC pins to NC terminals 
+ so that their status is visually clear. You can also tie any other pin 
+ to an NC terminal if it is not used in your design and it will become 
+ unroutable in the layout.</p>
+<p class="Tip">BSDL files are typically written for very large parts with 
+ a lot of pins. Using the two techniques above can make the resulting schematic 
+ component far more manageable. See also the topic on <a href="#BSDL_Deconstructing_Large_Components">deconstructing 
+ large components</a> below. </p>
+<p class="Reference">Refer to the topic on <a href="ISIS.chm::/ISIS_AND_ARES/Packaging.htm#Not_Connected_Pins__NC_Pins_">NC 
+ Pins</a> and packaging for more detailed information.</p>
+<h4> </h4>
+<h4>Pin Properties</h4>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_pinprops.png" alt="" style="border: none;" width="340" height="187" border="0"/></p>
+<p>When a single pin is selected in the pin display, the pin properties 
+ area shows both the name and the electrical type of the pin as imported 
+ from the BSDL file. These can then be changed by the user as required. 
+ If multiple pins are selected then the name field is left blank and the 
+ electrical type will be blanked if the selected pins are of different 
+ types. As described in the power pin discussion above, you can rename 
+ multiple pins at once by selecting them, entering the new name and then 
+ clicking on a free area of the pin display.</p>
+<h4>Pin Layout</h4>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_pinlayout.png" alt="" style="border: none;" width="337" height="120" border="0"/></p>
+<p>Pin layout gives you some control over the resulting schematic part, 
+ giving you options for pins on two sides or on all four sides of the part. 
+ It is generally best to opt for two sided parts on smaller devices (less 
+ than 100 pins) and four sided for larger devices. Multi-element parts 
+ are not supported in wizard which means that for very large parts, the 
+ user may need to re-assemble the device into several elements after placement.</p>
+<p>Once the configuration is complete press the next button to continue 
+ with making the device. At this point we are essentially following the 
+ process detailed in the <a href="ISIS.chm::/LIBRARY_FACILITIES/Device_Libraries.htm#Making_a_Single_Element_Device">Make 
+ Device topic</a>, although the packaging is worthy of further discussion.</p>
+<h4>Packaging(s)</h4>
+<p>A BSDL file can contain many packagings for a single component and this 
+ is fully supported in Proteus. However, the names of the footprints will 
+ most likely not be the same and you therefore need to edit the packaging 
+ to map the pins onto a footprint in the Proteus libraries.</p>
+<p class="Diagram"><img src="../assets/images/Images/bsdl_packagings.png" alt="" style="border: none;" width="732" height="1553" border="0"/></p>
+<p class="DiagramText">Packaging an ARES footprint from the BSDL Import.</p>
+<p>The big timesaver here is that, immediately on selection of the ARES 
+ package, all of the pins/balls are correctly mapped. This can be verified 
+ from the preview at the right hand side where all pins should be coloured 
+ white. Also note that power pins with the same name are specified as hidden 
+ and common and that not connected pins are automatically added to the 
+ NC pins list. In short, the only thing the user needs to do is tell the 
+ software which Proteus package to use.</p>
+<p class="Warning">It is important to note that the information supplied 
+ by vendors in the BSDL file may not be complete for schematic purposes. 
+ In particular, passive pins and/or power pins may not be present in the 
+ BSDL file because they are not relevant to device testing. Refer to the 
+ topic on <a href="#BSDL_Deconstructing_Large_Components">deconstructing 
+ devices</a> for more information on modifying parts after import.</p>
+<h3><a id="Import_Procedure"></a>Checklist</h3>
+<p>The following is a short checklist for BSDL import:</p>
+<ul type="1">
+	<li type="1">Check whether the pins in the pin grid need re-ordering 
+	 or re-naming. They will appear on the schematic in the same order 
+	 as they appear in the pin grid.</li>
+	<li type="1">Check whether you need to split the part into several 
+	 elements and add component separators in appropriate places.</li>
+	<li type="1">Decide whether you want the power pins and NC pins visible 
+	 on the schematic. If so, we&#39;d recommend grouping them together and 
+	 possibly separating them into their own elements.</li>
+	<li type="1">Check whether blank line separators would help with clarity 
+	 (for example, on either side of a bus) and add where appropriate.</li>
+	<li>Specify the direction of pin placement.</li>
+	<li>Continue to part naming, packaging, etc in the usual way.</li>
+	<li>If you&#39;ve chosen to have visible power pins / NC Pins remember 
+	 to tie them to the appropriate power and NC terminals on the schematic 
+	 after placement.</li>
+</ul>
+<h3><a id="Notes_and_Limitations"></a>Notes and Limitations</h3>
+<p>The following behaviours and limitations apply:</p>
+<p>If you split the component into several elements then, after you are 
+ finished, Proteus will have automatically created a <a href="ISIS.chm::/LIBRARY_FACILITIES/Device_Libraries.htm#Making_a_Multi-Element_Heterogeneous_Device">multi-element 
+ heterogeneous device</a> for you. When you place the different elements 
+ of the device the part reference will include a ?. You <span style="font-weight: bold; 
+	 text-decoration: underline; ">must</span> edit the elements and assign 
+ them all to the same device.</p>
+<p><img src="../assets/images/Images/bsdl_AssigningElement.png" alt="" style="border: none;" width="1409" height="365" border="0"/></p>
+<p> </p>
+<h4>Iteration with FPGA&#39;s</h4>
+<p>When working with FPGA&#39;s you may re-map the ball&#39;s to aid PCB layout 
+ and/or you may add or assign functionality to pins that were previously 
+ NC. These <span style="font-weight: bold;">must</span> be handled separately 
+ to avoid confusion.</p>
+<p>1) A re-map of the balls is a packaging change and can be done directly 
+ by loading the Xilinx or Altera pin map file into the packaging tool. 
+ More information <a href="ISIS.chm::/LIBRARY_FACILITIES/Device_Libraries.htm#Automatic_Pin_Mapping_">here.</a></p>
+<p>2) Adding functionality is a device change and requires that the updated 
+ BSDL file be imported into Proteus.</p>
+<p class="Warning">You cannot do both at the same time.</p>
+<h3><a id="BSDL_Deconstructing_Large_Components"></a>Deconstructing Large 
+ Components</h3>
+<p>When you import a large component, it&#39;s quite possible that you will 
+ need to make manual adjustments in order to use it effectively on the 
+ schematic. If you have chosen a 4-sided pin layout there will be a lot 
+ of &#39;dead space&#39; in the middle while a 2-sided pin layout may just be too 
+ big for the schematic sheet. Your options are therefore :</p>
+<ul class="bulletblue">
+	<li class="bulletblue">Re-import the BSDL file and use the component 
+	 separators to split the device into multiple elements.</li>
+	<li class="bulletblue"><a href="ISIS.chm::/GENERAL_CONCEPTS/Miscellaneous.htm#The_Sheet_Border">Increase 
+	 the sheet size</a> to fit the component.</li>
+	<li class="bulletblue">Decompose the component (right click and select 
+	 decompose from the context menu) and then either adjust the component 
+	 body or  <a href="ISIS.chm::/LIBRARY_FACILITIES/Device_Libraries.htm#Making_a_Multi-Element_Heterogeneous_Device">re-make 
+	 as a multi-element part</a>.</li>
+</ul>
+
+</div>
+<p> </p>
+
+</body></html>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../_rhdefault.css"/><link rel="stylesheet" type="text/css" href="../assets/css/lx.css"/>
+<meta name="template" content="../assets/masterpages/LX Master.htt"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>The Dialogue Form</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../ehlpdhtm.js"></script></head>
+
+<body page-style="x-size: Letter;">
+<div>
+<h1 position="fixed">THE DIALOGUE FORM</h1>
+<h3>Introduction</h3>
+<p>The Import Library dialogue provides a standard way to import library 
+ parts in both the PADS Library V9.x format (schematic and layout) and 
+ the BSDL format (schematic part only). BSDL files for large IC&#39;s can be 
+ downloaded from most manufacturers websites while PADS Library V9  files 
+ for library parts can be found on most part supplier sites or directly 
+ from EDA part suppliers such as Ultra-Librarian, SnapEDA and PCB Library 
+ Expert.</p>
+<p class="Tip">Proteus also includes seamless part import with Samacsys 
+ (library loader) but this process does not require the dialogue form, 
+ instead working with the Samacsys  library loader software directly. 
+ </p>
+<p class="Tip">You&#39;ll find worked examples of the import workflow with 
+ all major vendors <a href="Examples.htm">here</a>.</p>
+<h3>Dialogue Overview</h3>
+<p>The dialogue form can be launched from the Import Part command on the 
+ <span style="font-style: italic;">Library</span> menu in either the schematic 
+ or the layout module.</p>
+<p class="Diagram"><img src="../assets/images/Images/importDialogue.png" alt="" style="border: none;" width="784" height="535" border="0"/></p>
+<p class="DiagramText">Example Part Import dialogue - see below for more 
+ information.</p>
+<p class="Tip">All of the preview areas at the top and the import log will 
+ be blank until you use the Select File command to load a part.</p>
+<h5>1) Part Name</h5>
+<p>This column will show the name of the part (or parts) that can be imported 
+ from the selected files.</p>
+<h5>2) Schematic Component Preview</h5>
+<p>This preview will show the schematic body of the selected part in the 
+ left hand preview list.  </p>
+<h5>3) PCB Footprint Preview</h5>
+<p>This preview will show the PCB footprint body of the selected body in 
+ the left hand preview list.</p>
+<p class="Tip">There is no PCB footprint associated with BSDL files and 
+ so this area will remain blank.</p>
+<h5>4) Import Log</h5>
+<p>This area will populate with log messages and warning messages during 
+ the parsing of the files. You should check any warning messages that appear 
+ closely to make sure that the resulting parts in Proteus are suitable 
+ for your design needs.</p>
+<h5>5) File Selector</h5>
+<p>This is where the import process starts. You will be presented with 
+ a file selector from which you can load a supported file type into Proteus.</p>
+<p class="Diagram"><img src="../assets/images/Images/fileSelect.png" alt="" style="border: none;" width="245" height="108" border="0"/></p>
+<p class="DiagramText">Filtering the File Selector to show PADS Library 
+ format.</p>
+<h5>6) Start Import</h5>
+<p>This button will be disabled until after a file has been loaded and 
+ parsed via the Select File button on the left.</p>
+<p>After selecting your file and reviewing the import log for any warnings 
+ or errors this Import Part button is pressed to bring the parts into the 
+ Proteus libraries. </p>
+<p>If both a schematic component and layout footprint exist, then the import 
+ will run the familiar Make Package dialogue followed by the Make Device 
+ dialogue wizard. If only one or the other exists (e.g. no footprint with 
+ BSDL) then only the relevant wizard will be launched.</p>
+<h5>7) Configuration</h5>
+<p>This button will be disabled until after a file has been loaded and 
+ parsed via the Select File button on the left.</p>
+<p>The settings dialogue gives you additional options and control over 
+ the import and resulting parts. We&#39;d recommend that unless parts look 
+ odd or incorrect you leave these options alone but you&#39;ll fine detailed 
+ discussion of the various options in the following topic.</p>
+<p class="Tip">One particularly useful setting is the &#39;launch body editor&#39; 
+ setting for schematic parts. The <a href="The_Body_Editor.htm#Introduction">body 
+ editor screen</a> allows you to break a device into multiple elements 
+ which can be really helpful for large pin count components. If you like 
+ to work with multi-element devices on the schematic you might want to 
+ lower this threshold setting and then make use of the body editor during 
+ the import process.</p>
+<h3><a id="Solder_Mask" data-indexterm="Solder Mask"></a><a id="Paste_Mask" data-indexterm="Paste Mask"></a><a id="Heuristics" data-indexterm="Heuristics"></a><a id="Setting_Overbars" data-indexterm="Setting Overbars"></a><a id="Settings_and_Configuration"></a>Settings and Configuration</h3>
+<p> </p>
+<h4>Schematic Decal Settings</h4>
+<p class="Diagram"><img src="../assets/images/Images/schematicDecalSettings.png" alt="" style="border: none;" width="400" height="353" border="0"/></p>
+<p class="DiagramText">Configuration Settings for Schematic Decals</p>
+<h5>Body Editor Threshold</h5>
+<p>When you are importing large IC&#39;s or BGA&#39;s a single schematic component 
+ can be unwieldy and hard to work with. Often, engineers like to break 
+ down big parts into several smaller components performing logical functions 
+ (e.g. group the power pins into a component). Finally, treatment of NC 
+ pins depends on personal preference with some users happy to hide NC pins 
+ completely while others prefer all pins to be drawn on the component body.</p>
+<p>The body editor screen solves all these problems and more. It allows 
+ you to:</p>
+<ul type="disc">
+	<li>Change the pin order on the component (e.g. group a bus together).</li>
+	<li>Break a component into multiple elements.</li>
+	<li>Rename pins.</li>
+	<li>Hide or show all the NC pins on the component(s)</li>
+	<li>Hide or show all of the power pins on the component(s)</li>
+	<li>Specify the configuration of pins around the component (e.g. all 
+	 four sides or left and right only).</li>
+</ul>
+<p>We have chosen to show the body editor by default when the number of 
+ pins on the part exceeds 100. However, if you often find that you want 
+ to edit the components that your are importing you should drop this number 
+ down so that the body editor is shown for all but the simplest of components.</p>
+<p class="ExampleTitle">See Also:</p>
+<p class="Reference"><a href="The_Body_Editor.htm">Body Editor</a></p>
+<h5>Heuristic Graphics</h5>
+<p>Proteus comes equipped with standard body shapes and pin graphic types. 
+ When this option is selected the parser will detect the graphic shapes 
+ and replace with standard Proteus equivalents. We have found on balance 
+ that this produces better results and leaves a consistent look and feel 
+ to the schematic regardless of how many different sources are used for 
+ the parts.</p>
+<p>If however you prefer the exact graphic styles used by a particular 
+ vendor you can turn the heuristic mode off via this checkbox.</p>
+<h5>Line Width Specification</h5>
+<p>As with the heuristic graphics we have defaulted to using a standard 
+ line width for all imported data. This provides consistency on the schematic 
+ and generally works better. If you prefer the specific widths specified 
+ in the PADS Library files to be honoured then you can select this option.</p>
+<h5>Force Rectangle</h5>
+<p>When selected the shape of the imported component body will be forced 
+ rectangular. This is intended for use as a fix for the unusual case where 
+ the component just looks badly wrong when imported in its default state.</p>
+<h5>Overbar Expression</h5>
+<p>Unfortunately, different vendors use different characters to specify 
+ that a pin name has an overbar. This field is a regular expression to 
+ parse and detect that a pin name should have an overbar drawn above it. 
+ </p>
+<h4>PCB Decal Settings</h4>
+<p> </p>
+<p class="Diagram"><img src="../assets/images/Images/pcbDecalSettings.png" alt="" style="border: none;" width="400" height="354" border="0"/></p>
+<p class="DiagramText">Configuration Settings for PCB Decals.</p>
+<h5>Layer Assignments</h5>
+<p>On the PCB side the configuration options are all related to layer assignments. 
+ Depending on the vendor from which a PADS V9 is generated the layer ID&#39;s 
+ may vary. For example, where Vendor A uses ID 21 for top solder mask , 
+ vendor B may use an ID of 30.</p>
+<p>We&#39;ve provided what we believe to be a working set for most part vendors 
+ but if you find that a PCB import is on incorrect layers or has layers 
+ missing then you&#39;ll need to make the appropriate changes here. If you 
+ do come across this please also drop us a line to support@labcenter.com 
+ so that we can improve or extend in future releases.<br/>
+ </p>
+<h3><a id="Importing_PADS_v" data-indexterm="Importing PADS v9"></a><a id="Importing_BSDL" data-indexterm="Importing BSDL"></a><a id="The_Import_Process"></a>The Import Process</h3>
+<p class="ExampleTitle"> </p>
+<p class="ExampleTitle">To import a library part with PADS Library V9 files</p>
+<p>1) Download the part you want onto your computer. This will almost always 
+ be in a zip file.</p>
+<p>2) If the part doesn&#39;t come from a vendor source that we directly support 
+ (see list below) then you&#39;ll need to extract all the files from the zip 
+ into a folder of your choice.</p>
+<p>3) From the Library Menu in Proteus select the Import Part command</p>
+<p><img src="../assets/images/Images/importPartMenu.png" alt="" style="border: none;" width="173" height="109" border="0"/></p>
+<p>4) Click on <span style="font-style: italic;">Select File</span> and 
+ use the file selector on the right hand side to select either generic 
+ PADS Library V9 files or the vendor of your choice.</p>
+<p><img src="../assets/images/Images/vendorPickList.png" alt="" style="border: none;" width="281" height="105" border="0"/></p>
+<p>5) Choose the appropriate file to load. This will normally be a zip 
+ file if the vendor is selectable in the file selector or a .p file if 
+ you&#39;ve had to extract the parts into a folder.</p>
+<p><img src="../assets/images/Images/selectingPFile.png" alt="" style="border: none;" width="306" height="121" border="0"/></p>
+<p>6) Review the parse log and the previews to make sure everything looks 
+ good. Use <a href="#Settings_and_Configuration">configuration settings</a> 
+ if need be to fix problems.</p>
+<p><img src="../assets/images/Images/importParsed.png" alt="" style="border: none;" width="692" height="520" border="0"/></p>
+<p>7) Use Import Part and follow the wizards to bring first the footprint 
+ and then the component into Proteus. This will both put the parts into 
+ your libraries and deposit them in the parts bin of the current project 
+ ready for placement. You should have an end parsed result that looks like 
+ the following:</p>
+<p><img src="../assets/images/Images/importFinished.png" alt="" style="border: none;" width="190" height="192" border="0"/></p>
+<p> </p>
+<p class="Tip">What you are actually doing at this last stage is running 
+ the Make Package tool to create the footprint and then running the Make 
+ Device tool to make the schematic component. The areas where input may 
+ be required from you are in the library choice and the description and 
+ categorization of the part.</p>
+<p class="ExampleTitle"> </p>
+<p class="ExampleTitle">To import a library part with BSDL files</p>
+<p>1) Download the part you want onto your computer. This may be a zip 
+ file or a loose BSDL file.</p>
+<p>2) If it&#39;s in a zip file you&#39;ll need to extract the BSDL file from the 
+ zip into a folder of your choice.</p>
+<p>3) From the Library Menu in Proteus select the Import Part command</p>
+<p><img src="../assets/images/Images/importPartMenu.png" alt="" style="border: none;" width="173" height="109" border="0"/></p>
+<p>4) Use the file selector on the right hand side to select BSDL files.</p>
+<p><img src="../assets/images/Images/importBSDL.png" alt="" style="border: none;" width="285" height="112" border="0"/></p>
+<p>5) Choose the appropriate BSDL file to load.and then review the parse 
+ log and the preview to make sure everything looks good. It&#39;s normal to 
+ not have a PCB preview because BSDL files don&#39;t contain PCB footprint 
+ data.</p>
+<p><img src="../assets/images/Images/importParsedBSDL.png" alt="" style="border: none;" width="521" height="403" border="0"/></p>
+<p>7) Use Import Part and follow the wizard to bring the component into 
+ Proteus. This will both put the schematic part into your library and deposit 
+ it in the parts bin of the current project ready for placement.</p>
+<p class="Tip">Unlike the PADS Library import you will always run the body 
+ editor when you import the BSDL file. This is because the file does not 
+ contain graphical body data and so we need  to construct the body 
+ or bodies from your choices.</p>
+<p> </p>
+<p class="ExampleTitle">See Also:</p>
+<p class="Reference"><a href="Examples.htm">Examples</a></p>
+
+</div>
+<p> </p>
+
+</body></html>

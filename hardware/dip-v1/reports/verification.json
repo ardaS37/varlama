@@ -1,0 +1,15 @@
+{
+  "firmware_gpio_constants_checked": 13,
+  "spi_defaults": "esp32dev VSPI: SCK=18 MISO=19 MOSI=23",
+  "esp32_pads": 38,
+  "row_spacing_mm": 25.4,
+  "all_component_pads_through_hole": true,
+  "erc_errors": 0,
+  "erc_warnings": 0,
+  "drc_violations": 0,
+  "unconnected_pads": 0,
+  "schematic_parity_issues": 0,
+  "pcb_sha256": "9923b1a1ad3f81aa05673ea66d0e76027da1e7382eab13d45b0fcff8778dc9df",
+  "firmware_sha256": "40f848dfc1038658e30a9f408beef388cc5a5886dd8d5bfd1caa3b97edc800cf",
+  "physical_prototype_tested": false
+}

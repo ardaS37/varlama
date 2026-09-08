@@ -1,0 +1,32 @@
+﻿Reference,Value,Footprint,Notes
+U1,ESP32-DevKitC 38 pin,Yoklama:U1_esp,"WROOM, 2x19, 25.40 mm row spacing; USB supply only"
+J1,RC522 module,Yoklama:J1_rfid,
+J2,MicroSD 42x24 module,Yoklama:J2_sd,
+J3,LCD1602 I2C 5V,Yoklama:J3_header,
+R1,1k,Yoklama:R1_r,"Axial 1/4 W, lead pitch 7.62 mm"
+D1,LED blue,Yoklama:D1_led,"5 mm LED, 2.54 mm lead pitch"
+R2,1k,Yoklama:R2_r,"Axial 1/4 W, lead pitch 7.62 mm"
+D2,LED green,Yoklama:D2_led,"5 mm LED, 2.54 mm lead pitch"
+R3,1k,Yoklama:R3_r,"Axial 1/4 W, lead pitch 7.62 mm"
+D3,LED red,Yoklama:D3_led,"5 mm LED, 2.54 mm lead pitch"
+R4,1k,Yoklama:R4_r,"Axial 1/4 W, lead pitch 7.62 mm"
+D4,LED yellow,Yoklama:D4_led,"5 mm LED, 2.54 mm lead pitch"
+Q1,2N7000,Yoklama:Q1_to92,"onsemi 2N7000, TO-92, spread leads to 2.54 mm pitch"
+R5,4.7k,Yoklama:R5_r,"Axial 1/4 W, lead pitch 7.62 mm"
+R6,4.7k,Yoklama:R6_r,"Axial 1/4 W, lead pitch 7.62 mm"
+Q2,2N7000,Yoklama:Q2_to92,"onsemi 2N7000, TO-92, spread leads to 2.54 mm pitch"
+R7,4.7k,Yoklama:R7_r,"Axial 1/4 W, lead pitch 7.62 mm"
+R8,4.7k,Yoklama:R8_r,"Axial 1/4 W, lead pitch 7.62 mm"
+R9,1k,Yoklama:R9_r,"Axial 1/4 W, lead pitch 7.62 mm"
+R10,100k,Yoklama:R10_r,"Axial 1/4 W, lead pitch 7.62 mm"
+Q3,BC337-40,Yoklama:Q3_to92,"TO-92 BC337: 1 collector, 2 base, 3 emitter"
+BZ1,Passive piezo 5V,Yoklama:BZ1_buzzer,"Passive piezo, 7.62 mm pitch, <=12 mm body, <=20mA; not an active buzzer"
+R11,10k,Yoklama:R11_r,"Axial 1/4 W, lead pitch 7.62 mm"
+D5,1N4148,Yoklama:D5_r,"Axial diode, cathode band at pad 1"
+C1,100uF 10V,Yoklama:C1_cap,Radial pitch 2.54 mm
+C2,100nF,Yoklama:C2_cap,Radial pitch 2.54 mm
+C3,100nF,Yoklama:C3_cap,Radial pitch 2.54 mm
+C4,10uF 10V,Yoklama:C4_cap,Radial pitch 2.54 mm
+C5,100nF,Yoklama:C5_cap,Radial pitch 2.54 mm
+R12,10k,Yoklama:R12_r,"Axial 1/4 W, lead pitch 7.62 mm"
+R13,10k,Yoklama:R13_r,"Axial 1/4 W, lead pitch 7.62 mm"

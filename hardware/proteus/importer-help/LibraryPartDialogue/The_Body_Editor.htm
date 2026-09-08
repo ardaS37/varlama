@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../_rhdefault.css"/><link rel="stylesheet" type="text/css" href="../assets/css/lx.css"/>
+<meta name="template" content="../assets/masterpages/LX Master.htt"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>The Body Editor</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../ehlpdhtm.js"></script></head>
+
+<body page-style="x-size: Letter;">
+<div>
+<h1 position="fixed">THE BODY EDITOR</h1>
+<h3><a id="Introduction"></a>Introduction</h3>
+<p>The organisation of the schematic part is something that causes users 
+ a great deal of frustration both because of personal preference and through 
+ lack of flexibility in the hosting CAD package. The larger the component 
+ the more these problems manifest which is why we introduced the body editor 
+ in Proteus import workflow.</p>
+<p>The body editor allows for review and manipulation of incoming schematic 
+ parts before their final creation into the libraries. Users can:</p>
+<ol type="1" class="Numbers">
+	<li class="Numbers">Rename pins. For example NC_1, NC_2, NC_3 can be 
+	 block renamed to be NC.</li>
+	<li class="Numbers">Order pins. Users who prefer their parts to be 
+	 in logical order can move the appropriate pins so that for example 
+	 all the pins in the address bus are together.</li>
+	<li class="Numbers">Split the part into multiple elements. Almost essential 
+	 for BGA&#39;s and large IC&#39;s and particularly useful together with the 
+	 pin ordering feature as it lets you assign logical groups (e.g. power) 
+	 to different component bodies.</li>
+	<li class="Numbers">Hide or show power pins and NC pins. Possibly the 
+	 most contentious area of all. Many customers want to hide power pins 
+	 to save wiring and NC pins because they are not connected. Equally, 
+	 many customers want all pins visible on the schematic and to then 
+	 explicitly handle the wiring of each one. The body editor gives users 
+	 the choice at the part creation stage.</li>
+	<li class="Numbers">Run the pins around the component body in different 
+	 ways, notably giving the choice of a rectangular component body with 
+	 pins on two sides or a square component body with pins on all four 
+	 sides. </li>
+</ol>
+<h3><a id="Dialogue_Overview"></a>Dialogue Overview</h3>
+<p> </p>
+<p class="Diagram"><img src="../assets/images/Images/bodyEditor.png" alt="" style="border: none;" width="538" height="455" border="0"/></p>
+<p class="DiagramText">Example Body Editor dialogue - see below for more 
+ information.</p>
+<h5>Pin Listing / Ordering</h5>
+<p>This listview displays all the pins in the part being imported. </p>
+<ul type="disc">
+	<li>You can select a pin and move it up or down using the buttons just 
+	 to the right of the list.</li>
+	<li>You can select a group of consecutive pins by holding down the 
+	 SHIFT key and selecting the first pin and then the last pin in the 
+	 group. The group of pins can then be moved up or down using the arrow 
+	 buttons to the right of the listview.</li>
+	<li>You can select a </li>
+	<li>You can add a separator (a gap) between pins by clicking once on 
+	 the button at the bottom of the listview.</li>
+	<li>You can split the part into multiple different elements by clicking 
+	 twice on the button at the bottom of the listview. All pins above 
+	 this element separator will then go around component body number 1 
+	 and all pins below will go around component body number 2. You can 
+	 create as many elements as you want.</li>
+</ul>
+<h5>Pin Naming / Typing</h5>
+<p>This area allows you to rename one or more pins and to set their electrical 
+ type. This can be useful in the case where for example a lot of NC pins 
+ are named individually with a numerical suffix. Simply select the pin(s) 
+ you want to edit and then change their name and/or type and hit apply 
+ to commit the changes.</p>
+<h5>Power Pins and NC Pins</h5>
+<p>Proteus allows you to reduce clutter and wiring on the schematic by 
+ hiding power pins and/or NC pins so that they do not appear on the component 
+ bodies. However, for auditing purposes many customers prefer each pin 
+ to be visible and to explicitly connect them appropriately. These two 
+ checkboxes give user control over visibility of both power pins and NC 
+ pins.</p>
+<p class="Tip">Note that if you leave NC pins visible you should explictly 
+ connect each pin to an NC terminal on the schematic.</p>
+<h5>Pins Layout on Body</h5>
+<p>This area provides some basic options for the layout of the pins on 
+ the component body. In the case of a multi-element part the layout will 
+ be the same for each element. You can select from the default two sided 
+ rectangle or a square body with pins on all four sides arranged either 
+ clockwise or anti-clockwise.</p>
+
+</div>
+<p> </p>
+
+</body></html>
